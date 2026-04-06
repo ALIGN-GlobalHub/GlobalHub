@@ -5,6 +5,14 @@ format:
     theme: flatly
     css: ../../www/styles.css
     toc: true
+params:
+  last_updated: "2026-03-27"
+---
+
+<div class="about-meta">
+Last updated: `r params$last_updated`
+</div>
+
 ---
 
 ## Overview
@@ -63,3 +71,16 @@ The ALIGN Global Hub integrates structured data across pharmaceutical R&D, regul
 ## Integration Methods
 
 For technical details on how these databases are harmonized into a single registry, refer to the [Source Integration Methods](source_methods.html){target="_blank"}.
+
+
+***
+
+![](../../../www/logo/with_partners.png){height=120px}
+
+© 2026 ALIGN Consortium. All rights reserved.
+
+{{< fa globe >}} [Website](https://alignconsortium.org){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa brands github >}} [GitHub](https://github.com/ALIGN-Consortium/GlobalHub){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa envelope >}} [Contact](mailto:align@duke.edu)

@@ -5,6 +5,14 @@ format:
     theme: flatly
     css: ../../www/styles.css
     toc: true
+params:
+  last_updated: "2026-03-27"
+---
+
+<div class="about-meta">
+Last updated: `r params$last_updated`
+</div>
+
 ---
 
 ## Overview
@@ -42,3 +50,15 @@ The pipeline consists of several key stages:
 - **Audit Logs:** Creation of logs that track changes and potential errors during the integration process.
 
 For more information on the technical implementation, refer to the [Technical Architecture Guide](technical_guide.html){target="_blank"}.
+
+***
+
+![](../../../www/logo/with_partners.png){height=120px}
+
+© 2026 ALIGN Consortium. All rights reserved.
+
+{{< fa globe >}} [Website](https://alignconsortium.org){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa brands github >}} [GitHub](https://github.com/ALIGN-Consortium/GlobalHub){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa envelope >}} [Contact](mailto:align@duke.edu)

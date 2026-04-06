@@ -1,4 +1,4 @@
-# modules/innovation_page.py
+# modules/overview_and_innovations.py
 from shiny import ui, reactive, module, render, req
 from shiny.render import DataGrid
 from shiny.ui import popover, value_box_theme
@@ -9,18 +9,18 @@ from shinywidgets import output_widget, render_widget
 from utils.data_loader import load_data
 
 
-def req(condition):
-    """
-    Helper to stop execution if a condition is not met (similar to R Shiny's req).
-    Useful for preventing errors when data is momentarily empty during reactivity.
-    """
-    import pandas as pd
+# def req(condition):
+#     """
+#     Helper to stop execution if a condition is not met (similar to R Shiny's req).
+#     Useful for preventing errors when data is momentarily empty during reactivity.
+#     """
+#     import pandas as pd
 
-    if isinstance(condition, (pd.DataFrame, pd.Series)):
-        if condition.empty:
-            raise StopIteration
-    elif not condition:
-        raise StopIteration
+#     if isinstance(condition, (pd.DataFrame, pd.Series)):
+#         if condition.empty:
+#             raise StopIteration
+#     elif not condition:
+#         raise StopIteration
 
 
 def get_status_theme(value):
@@ -230,7 +230,30 @@ def innovation_page_ui():
       - Impact potential
       - Introduction readiness (Financing + Uptake/Delivery + Policy)
     """
+    ns = module.resolve_id
     return ui.TagList(
+        ui.tags.script(
+            """
+            Shiny.addCustomMessageHandler('scroll-to-element', function(message) {
+  let tries = 0;
+
+  function tryScroll() {
+    const el = document.getElementById(message.id);
+    if (el) {
+      const yOffset = -120;
+      const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    } else if (tries < 10) {
+      tries++;
+      setTimeout(tryScroll, 100);
+    }
+  }
+
+  tryScroll();
+});
+            """
+        ),
         ui.div(
             # =====================================================
             # KPI CARDS
@@ -428,6 +451,7 @@ def innovation_page_ui():
                 ui.div(ui.output_ui("detail_summary"), class_="card-body"),
                 class_="card mb-4",
                 min_height="400px",
+                id=ns("detail_summary_card"),
             ),
             # =====================================================
             # DETAIL: readiness + timeline
@@ -867,17 +891,23 @@ def innovation_page_server(input, output, session, cart):
 
     @reactive.Effect
     @reactive.event(input.pipeline_tbl_selected_rows)
-    def _on_row_select():
+    async def _on_row_select():
         if not input.pipeline_tbl_selected_rows():
             return
 
         idx = input.pipeline_tbl_selected_rows()[0]
         df_f = table_df()
         if df_f.empty:
-            return None
+            return
+
         if idx < len(df_f):
             selected_id = df_f.iloc[idx]["innovation"]
             selected_innovation.set(selected_id)
+
+            await session.send_custom_message(
+                "scroll-to-element",
+                {"id": session.ns("detail_summary_card")}
+            )
 
     @reactive.Effect
     @reactive.event(input.clear_filters)
@@ -924,7 +954,7 @@ def innovation_page_server(input, output, session, cart):
         row = detail_row()
         return ui.div(
             ui.p(ui.tags.b("Product: "), str(row.get("innovation", "N/A"))),
-            ui.p(ui.tags.b("Disease: "), str(row.get("disease", "N/A"))),
+            ui.p(ui.tags.b("Disease target: "), str(row.get("disease", "N/A"))),
             ui.p(ui.tags.b("Indication: "), str(row.get("indication", "N/A"))),
             ui.p(
                 ui.tags.b("Target population: "),

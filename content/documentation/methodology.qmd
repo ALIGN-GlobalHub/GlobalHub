@@ -5,6 +5,14 @@ format:
     theme: flatly
     css: ../../www/styles.css
     toc: true
+params:
+  last_updated: "2026-03-27"
+---
+
+<div class="about-meta">
+Last updated: `r params$last_updated`
+</div>
+
 ---
 
 ## Overview
@@ -57,3 +65,15 @@ The methodology will continue to evolve as more data sources are integrated and 
 - Advanced forecasting models.
 - Portfolio prioritization tools.
 - Multi-country rollout with demand and delivery data integration.
+
+***
+
+![](../../../www/logo/with_partners.png){height=120px}
+
+© 2026 ALIGN Consortium. All rights reserved.
+
+{{< fa globe >}} [Website](https://alignconsortium.org){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa brands github >}} [GitHub](https://github.com/ALIGN-Consortium/GlobalHub){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa envelope >}} [Contact](mailto:align@duke.edu)

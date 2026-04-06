@@ -18,7 +18,6 @@ from utils.theme import create_theme
 # UI
 # =========================================================
 app_ui = ui.page_navbar(
-
     # -------------------------
     # NAVIGATION
     # -------------------------
@@ -26,19 +25,15 @@ app_ui = ui.page_navbar(
         "About",
         about_ui("about"),
     ),
-
     nav_panel(
         "Overview",
         innovation_page_ui("innovation_page"),
     ),
-
     nav_panel(
         "Product comparison",
         comparison_ui("comparison"),
     ),
-
     id="main_nav",
-
     # -------------------------
     # TITLE / LOGO
     # -------------------------
@@ -50,12 +45,10 @@ app_ui = ui.page_navbar(
         ),
         class_="d-flex align-items-center",
     ),
-
     # -------------------------
     # THEME
     # -------------------------
     theme=create_theme(),
-
     # -------------------------
     # HEADER (Sticky hero)
     # -------------------------
@@ -70,7 +63,6 @@ app_ui = ui.page_navbar(
                 src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"
             ),
         ),
-
         ui.div(
             ui.div(
                 ui.div(
@@ -90,7 +82,6 @@ app_ui = ui.page_navbar(
             class_="sticky-hero-container",
         ),
     ),
-
     # -------------------------
     # FOOTER
     # -------------------------

@@ -5,6 +5,14 @@ format:
     theme: flatly
     css: ../../www/styles.css
     toc: true
+params:
+  last_updated: "2026-03-27"
+---
+
+<div class="about-meta">
+Last updated: `r params$last_updated`
+</div>
+
 ---
 
 ## Overview
@@ -47,3 +55,15 @@ These milestones support several decision points:
 - **Prioritization:** Identifying which products are closest to market.
 - **Sequencing:** Planning the order of product introductions based on expected timelines.
 - **Financing Alignment:** Aligning budget cycles with projected procurement dates.
+
+***
+
+![](../../../www/logo/with_partners.png){height=120px}
+
+© 2026 ALIGN Consortium. All rights reserved.
+
+{{< fa globe >}} [Website](https://alignconsortium.org){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa brands github >}} [GitHub](https://github.com/ALIGN-Consortium/GlobalHub){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa envelope >}} [Contact](mailto:align@duke.edu)

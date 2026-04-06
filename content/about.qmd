@@ -96,27 +96,25 @@ These decisions are typically made with incomplete or fragmented data - The Glob
 ---
 
 ::: {.callout-note collapse="true"}
-## How the Hub can help you
-
-##### How to use the tool
+## How to use the Hub
 
 The Hub supports a simple workflow: explore → compare → interpret → decide
 
-**Explore** : Use the *Overview page* to filter by application, development stage, or geography  
+**Explore**: 
+
+-  On the *Overview* page, navigate to the produce explorer. You can filter by  disease category, product type, manufacturer or development stage by typing in the area you’re interested in. You can also use global page filters by clicking on the drop down menus or clicking the interactive plots. You can always reset the filters by clicking the blue circle arrow in the bottom-right of your screen.
+-  Select a product you are interested in and scroll down to view additional details including projected launch timeline and global introduction readiness. 
+
 
 **Compare**
 
-- Add products to the comparison cart  
-- View them in the *Product Comparison page*  
+-  Select the product you want to compare and hit the green “Add to Cart” button at the top right hand corner of the product explorer. Repeat to add products you wish to compare.
+-  Then navigate to the Product Comparison page or click on the Cart in the upper right corner of the screen and select “Compare your products”
+ 
 
 **Interpret** : Review projected vs actual milestone timelines  
 
-
-##### Common users
-
-- **Policy-makers** → prioritize products for introduction  
-- **Donors** → align investments with pipeline gaps  
-- **Researchers** → analyze development and regulatory trends  
+**Decide** : Coming soon! → a prioritization tool that incorporates projected timelines, cost-effectiveness, and likelihood of success to support portfolio-based decision-making.
 
 
 
@@ -210,6 +208,7 @@ Data sources are integrated in phases.
 | Janssen R&D pipeline | Company pipeline | Global | Not started | 2027 |
 
 **Full documentation:**
+
 - [Full Horizon Scanning Database List](https://align-consortium.github.io/GlobalHub/content/documentation/horizon_sources.html){target="_blank"}
 - [Source Integration Methods](https://align-consortium.github.io/GlobalHub/content/documentation/source_methods.html){target="_blank"}
 :::
@@ -254,11 +253,7 @@ Data are harmonized into a unified product registry using:
 
 [Product introduction milestones](https://align-consortium.github.io/GlobalHub/content/documentation/product_milestones.html){target="_blank"}
 
-**Cost-effectiveness analysis:**
-
 [Cost-effectiveness analysis](https://align-consortium.github.io/GlobalHub/content/documentation/cost_effectiveness.html){target="_blank"}
-
-**Likelihood of success analysis:**
 
 [Likelihood of success analysis](https://align-consortium.github.io/GlobalHub/content/documentation/likelihood_of_success.html){target="_blank"}
 
@@ -304,16 +299,16 @@ The roadmap reflects planned expansions in data coverage, analytical capabilitie
 **Q3 2026**
 
 - National Hub pilots (Kenya, South Africa and Senegal)  
-- Expanded application coverage  
+- Expanded application coverage beyond TB, HIV, malaria, and MNCH. 
 
 **Q4 2026**
   
-- Advanced forecasting models  
-- Portfolio prioritization tools  
+- Integration of predictive modeling (probability of success and time to market)  
+- Portfolio prioritization tools (e.g. budget impact and combined cost-effectiveness)  
 
 **Q1 2027**
 
-- Multi-country rollout  
+- Integration and harmonization of country-specific product databases 
 - Demand + delivery data integration  
 :::
 
