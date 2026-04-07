@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About ALIGN</title>
+<title>Data Dictionary – GlobalHub</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -23,31 +26,188 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="about_files/libs/clipboard/clipboard.min.js"></script>
-<script src="about_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="about_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="about_files/libs/quarto-html/popper.min.js"></script>
-<script src="about_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="about_files/libs/quarto-html/anchor.min.js"></script>
-<link href="about_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="about_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="about_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="about_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="about_files/libs/bootstrap/bootstrap-769b268fb290e116fe386cf5612ac759.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
-<link rel="stylesheet" href="../assets/styles.css">
+<link rel="stylesheet" href="../../www/styles.css">
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../www/logo/without_partners.png" alt="" class="navbar-logo light-content">
+    <img src="../../www/logo/without_partners.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">GlobalHub</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-documentation" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Documentation</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-documentation">    
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/cost_effectiveness.html">
+ <span class="dropdown-text">Cost-Effectiveness Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/data_dictionary.html">
+ <span class="dropdown-text">Data Dictionary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/forecasting.html">
+ <span class="dropdown-text">Forecasting</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/glossary.html">
+ <span class="dropdown-text">Glossary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/horizon_scanning.html">
+ <span class="dropdown-text">Horizon Scanning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/horizon_sources.html">
+ <span class="dropdown-text">Horizon Sources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/inclusion_criteria.html">
+ <span class="dropdown-text">Inclusion Criteria</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/integration_pipeline.html">
+ <span class="dropdown-text">Integration Pipeline</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/likelihood_of_success.html">
+ <span class="dropdown-text">Likelihood of Success</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/methodology.html">
+ <span class="dropdown-text">Methodology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/mnch_framework.html">
+ <span class="dropdown-text">MNCH Framework</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/product_milestones.html">
+ <span class="dropdown-text">Product Milestones</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/source_methods.html">
+ <span class="dropdown-text">Source Methods</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/technical_guide.html">
+ <span class="dropdown-text">Technical Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/documentation/validation.html">
+ <span class="dropdown-text">Validation</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://align-global-hub.shinyapps.io/global_hub/" target="_blank"> 
+<span class="menu-text">ALIGN Global Hub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#key-terminology" id="toc-key-terminology" class="nav-link" data-scroll-target="#key-terminology">Key Terminology</a>
+  <ul class="collapse">
+  <li><a href="#global-regulatory-approval-gra" id="toc-global-regulatory-approval-gra" class="nav-link" data-scroll-target="#global-regulatory-approval-gra">Global Regulatory Approval (GRA)</a></li>
+  <li><a href="#trial-phase" id="toc-trial-phase" class="nav-link" data-scroll-target="#trial-phase">Trial Phase</a></li>
+  <li><a href="#national-regulatory-authority-nra" id="toc-national-regulatory-authority-nra" class="nav-link" data-scroll-target="#national-regulatory-authority-nra">National Regulatory Authority (NRA)</a></li>
+  <li><a href="#who-essential-medicines-list-eml" id="toc-who-essential-medicines-list-eml" class="nav-link" data-scroll-target="#who-essential-medicines-list-eml">WHO Essential Medicines List (EML)</a></li>
+  </ul></li>
+  <li><a href="#field-definitions" id="toc-field-definitions" class="nav-link" data-scroll-target="#field-definitions">Field Definitions</a></li>
+  <li><a href="#methodology-references" id="toc-methodology-references" class="nav-link" data-scroll-target="#methodology-references">Methodology References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About ALIGN</h1>
+<h1 class="title">Data Dictionary</h1>
 </div>
 
 
@@ -65,363 +225,140 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="about-meta">
-<p>Last updated: <code>r params$last_updated</code></p>
+<p>Last updated: 2026-03-27</p>
 </div>
 <hr>
-<section id="what-is-align" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-align">What is ALIGN?</h2>
-<p>The <strong>Advancing Country-Led Innovation Introduction through Government Engagement and EvideNce (ALIGN) Consortium</strong> aims to improve health outcomes by strengthening how health products are prioritized and introduced within countries.</p>
-<p>ALIGN brings together the Duke Global Health Innovation Center, the South African Medical Research Council (SAMRC), Keprecon, and ENDA Santé to support governments in Kenya, Senegal, and South Africa across:</p>
-<ul>
-<li>Whole-of-government coordination and capacity strengthening<br>
-</li>
-<li>Data-driven decision-making<br>
-</li>
-<li>Whole-of-market engagement (national, regional, global)<br>
-</li>
-<li>Portfolio-based planning</li>
-</ul>
-<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This Data Dictionary defines the fields and terms used in the ALIGN Global Hub. It provides clarity on the source, definition, and possible values for each metric displayed in the dashboard.</p>
 </section>
-<section id="what-is-the-align-global-hub" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-the-align-global-hub">What is the ALIGN Global Hub?</h2>
-<p>The ALIGN platform consists of two complementary systems:</p>
+<section id="key-terminology" class="level2">
+<h2 class="anchored" data-anchor-id="key-terminology">Key Terminology</h2>
+<section id="global-regulatory-approval-gra" class="level3">
+<h3 class="anchored" data-anchor-id="global-regulatory-approval-gra">Global Regulatory Approval (GRA)</h3>
+<p>The <strong>Global Regulatory Approval</strong> field indicates whether a health product has received authorization or prequalification by a global body.</p>
 <ul>
-<li><p><strong>Global Hub (this tool)</strong><br>
-Aggregates global market intelligence to understand the product supply landscape</p></li>
-<li><p><strong>National Hubs (in development)</strong><br>
-Tailored to country-specific priorities, integrating demand, delivery, and policy data</p></li>
-</ul>
-<p>The Global Hub functions as a <strong>structured intelligence platform</strong> for tracking, classifying, and comparing health products across applications, development phases, and geographic contexts.</p>
-<hr>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Why does this Hub exist?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Health product data are fragmented across multiple systems:</p>
-<ul>
-<li>Clinical trial registries<br>
-</li>
-<li>Regulatory agencies<br>
-</li>
-<li>Procurement databases<br>
-</li>
-<li>Policy lists</li>
-</ul>
-<p>This fragmentation limits the ability to: - Compare products across applications and timelines<br>
-- Identify what is coming to market<br>
-- Prioritize introduction decisions</p>
-<p><strong>ALIGN’s theory of change:</strong><br>
-Integrating fragmented data → enabling comparison → improving prioritization → accelerating equitable product introduction.</p>
-<p><strong>Resources:</strong> - <a href="../docs/theory_of_change.pdf">ALIGN Theory of Change (PDF)</a> - <a href="../docs/data_fragmentation.pdf">Evidence Brief: Data Fragmentation</a></p>
-</div>
-</div>
-</div>
-<hr>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-How the Hub can help you
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<section id="key-workflows" class="level3">
-<h3 class="anchored" data-anchor-id="key-workflows">Key workflows</h3>
-<p><strong>Explore</strong> - Use the <em>Overview page</em> to filter by application, development stage, or geography</p>
-<p><strong>Compare</strong> - Add products to the comparison cart<br>
-- View them in the <em>Product Comparison page</em></p>
-<p><strong>Interpret</strong> - Review projected vs actual milestone timelines</p>
-<hr>
-</section>
-<section id="common-users" class="level3">
-<h3 class="anchored" data-anchor-id="common-users">Common users</h3>
-<ul>
-<li><strong>Policy-makers</strong> → prioritize products for introduction<br>
-</li>
-<li><strong>Donors</strong> → align investments with pipeline gaps<br>
-</li>
-<li><strong>Researchers</strong> → analyze development and regulatory trends</li>
-</ul>
-<hr>
-</section>
-<section id="user-guides" class="level3">
-<h3 class="anchored" data-anchor-id="user-guides">User guides</h3>
-<ul>
-<li><a href="../docs/quick_start.pdf">Quick Start Guide</a><br>
-</li>
-<li><a href="../docs/user_manual.pdf">Full User Manual</a><br>
-</li>
-<li><a href="../docs/video_link.html">Video walkthrough</a></li>
-</ul>
-<blockquote class="blockquote">
-<p>Note: Products must be added to the cart from the Overview page to appear in comparisons.</p>
-</blockquote>
-</section>
-</div>
-</div>
-</div>
-<hr>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Scope of data
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The Global Hub includes a curated set of <strong>health applications</strong> (not limited to diseases), including:</p>
-<ul>
-<li>Infectious diseases<br>
-</li>
-<li>Maternal, newborn, and child health (MNCH)<br>
-</li>
-<li>Preventive and diagnostic applications</li>
-</ul>
-<p><strong>Important:</strong> - Not all conditions are currently included<br>
-- Applications are used instead of “diseases”<br>
-- Inclusion depends on data availability and relevance</p>
-<p><strong>Documentation:</strong> - <a href="../docs/inclusion_criteria.pdf">Applications &amp; Inclusion Criteria</a><br>
-- <a href="../docs/mnch_framework.pdf">MNCH Definitions</a><br>
-- <a href="../docs/data_dictionary.pdf">Data Dictionary</a></p>
-</div>
-</div>
-</div>
-<hr>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Data sources
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>ALIGN integrates structured data across:</p>
-<ul>
-<li>WHO ICTRP<br>
-</li>
-<li>ClinicalTrials.gov<br>
-</li>
-<li>WHO Prequalification<br>
-</li>
-<li>National Regulatory Authorities (US FDA, EMA, SAHPRA, PPB)<br>
-</li>
-<li>Impact Global Health Tracker<br>
-</li>
-<li>WHO Essential Medicines / Diagnostics Lists<br>
-</li>
-<li>UNICEF procurement data</li>
-</ul>
-<p><strong>Full documentation:</strong> - <a href="https://github.com/YOUR_REPO/horizon_sources">Full Horizon Scanning Database List</a><br>
-- <a href="../docs/source_methods.pdf">Source Integration Methods</a></p>
-</div>
-</div>
-</div>
-<hr>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Methodology
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<section id="data-integration" class="level3">
-<h3 class="anchored" data-anchor-id="data-integration">Data integration</h3>
-<p>Data are harmonized into a unified product registry using:</p>
-<ul>
-<li>Name and synonym matching<br>
-</li>
-<li>Identifier mapping<br>
-</li>
-<li>Cross-source validation</li>
-</ul>
-<p>→ <a href="../docs/integration_pipeline.pdf">Data Integration Pipeline</a></p>
-<hr>
-</section>
-<section id="key-metrics" class="level3">
-<h3 class="anchored" data-anchor-id="key-metrics">Key metrics</h3>
-<p><strong>Milestones tracked:</strong> - Proof of concept<br>
-- Marketing authorization<br>
-- First launch in LMICs</p>
-<p><strong>Projected timelines:</strong> - Based on observed patterns across products<br>
-- Include uncertainty ranges</p>
-<hr>
-</section>
-<section id="data-standardization" class="level3">
-<h3 class="anchored" data-anchor-id="data-standardization">Data standardization</h3>
-<ul>
-<li>Dates formatted as <strong>YYYY-MM-DD</strong><br>
-</li>
-<li>Regulatory signals harmonized<br>
-</li>
-<li>Product categories normalized</li>
-</ul>
-<hr>
-</section>
-<section id="limitations" class="level3">
-<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
-<ul>
-<li>Missing or inconsistent source data<br>
-</li>
-<li>Variation across registries<br>
-</li>
-<li>Forecast uncertainty</li>
-</ul>
-<hr>
-</section>
-<section id="full-documentation" class="level3">
-<h3 class="anchored" data-anchor-id="full-documentation">Full documentation</h3>
-<ul>
-<li><a href="../docs/methodology.pdf">Full Methodology Report</a><br>
-</li>
-<li><a href="../docs/forecasting.pdf">Forecasting Methods</a><br>
-</li>
-<li><a href="../docs/validation.pdf">Validation Protocol</a><br>
-</li>
+<li><strong>Includes:</strong> WHO Prequalification (PQ), US FDA approval, EMA approval, or other approvals from Stringent Regulatory Authorities (SRA).</li>
+<li><strong>Emergency Use:</strong> Includes Emergency Use Authorizations (EUA) where applicable for public health emergencies.</li>
+<li><strong>Values:</strong> <code>Yes</code>, <code>No</code>, <code>Under Review</code>.</li>
 </ul>
 </section>
-</div>
-</div>
-</div>
+<section id="trial-phase" class="level3">
+<h3 class="anchored" data-anchor-id="trial-phase">Trial Phase</h3>
+<p>The development stage of the product based on clinical trial activity.</p>
+<ul>
+<li><p><strong>Rule:</strong> If a product is in multiple phases simultaneously (e.g., Phase 2/3), the <strong>highest phase</strong> is recorded.</p></li>
+<li><p><strong>Values:</strong></p>
+<ul>
+<li><code>Phase 1</code>: Initial human safety testing.</li>
+<li><code>Phase 2</code>: Efficacy and safety testing in target populations.</li>
+<li><code>Phase 3</code>: Large-scale confirmatory testing.</li>
+<li><code>Phase 4</code>: Post-marketing surveillance.</li>
+<li><code>Approved / Marketed</code>: Formally approved for use.</li>
+</ul></li>
+</ul>
+</section>
+<section id="national-regulatory-authority-nra" class="level3">
+<h3 class="anchored" data-anchor-id="national-regulatory-authority-nra">National Regulatory Authority (NRA)</h3>
+<p>Indicates the status of national marketing authorization in specific countries (e.g., Kenya, Senegal, South Africa).</p>
+<ul>
+<li><strong>Values:</strong> <code>Yes</code>, <code>No</code>, <code>Under Review</code>.</li>
+</ul>
+</section>
+<section id="who-essential-medicines-list-eml" class="level3">
+<h3 class="anchored" data-anchor-id="who-essential-medicines-list-eml">WHO Essential Medicines List (EML)</h3>
+<p>Indicates if the product is listed on the WHO Model List of Essential Medicines or the Model List of Essential Diagnostics.</p>
+<ul>
+<li><strong>Values:</strong> <code>Yes</code>, <code>No</code>.</li>
+</ul>
+</section>
+</section>
+<section id="field-definitions" class="level2">
+<h2 class="anchored" data-anchor-id="field-definitions">Field Definitions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 39%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field Name</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>innovation</code></td>
+<td>The primary name of the product or innovation.</td>
+<td>Aggregated</td>
+</tr>
+<tr class="even">
+<td><code>manufacturer</code></td>
+<td>The primary manufacturer or lead developer of the product.</td>
+<td>Aggregated</td>
+</tr>
+<tr class="odd">
+<td><code>disease</code></td>
+<td>The target disease area (HIV, TB, Malaria, MNCH).</td>
+<td>Aggregated</td>
+</tr>
+<tr class="even">
+<td><code>category</code></td>
+<td>The type of product (Diagnostic, Therapeutic, Vaccine, etc.).</td>
+<td>Aggregated</td>
+</tr>
+<tr class="odd">
+<td><code>trial_status</code></td>
+<td>The current clinical development stage.</td>
+<td>Aggregated</td>
+</tr>
+<tr class="even">
+<td><code>proj_date_first_launch</code></td>
+<td>The projected or observed date of first country-level launch.</td>
+<td>Mao et al.&nbsp;(2025) Method</td>
+</tr>
+<tr class="odd">
+<td><code>proj_date_lmic_20_uptake</code></td>
+<td>The projected date for 20% market uptake in LMICs.</td>
+<td>Mao et al.&nbsp;(2025) Method</td>
+</tr>
+<tr class="even">
+<td><code>people_at_risk</code></td>
+<td>Estimated number of individuals at risk for the disease.</td>
+<td>Population Data (GBD/WHO)</td>
+</tr>
+<tr class="odd">
+<td><code>dalys</code></td>
+<td>Disability-Adjusted Life Years attributable to the disease.</td>
+<td>IHME / GBD</td>
+</tr>
+<tr class="even">
+<td><code>readiness</code></td>
+<td>A composite score (0-100) indicating introduction readiness.</td>
+<td>ALIGN Assessment</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="methodology-references" class="level2">
+<h2 class="anchored" data-anchor-id="methodology-references">Methodology References</h2>
+<p>For detailed information on how projected dates and readiness scores are calculated, please refer to the following documents:</p>
+<ul>
+<li><a href="forecasting.html">Forecasting Methods (Mao et al.&nbsp;2025)</a></li>
+<li><a href="methodology.html">Methodology Report</a></li>
+<li><a href="product_milestones.html">Product Milestones</a></li>
+</ul>
 <hr>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Previous work: Integrated Horizon Scanning
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The Global Hub builds on ALIGN’s horizon scanning system, integrating:</p>
-<ul>
-<li>R&amp;D pipelines<br>
-</li>
-<li>Regulatory approvals<br>
-</li>
-<li>Procurement signals</li>
-</ul>
-<p>This enables tracking from development → introduction.</p>
-<p>→ <a href="../docs/horizon_scanning.pdf">Horizon Scanning Report</a></p>
-</div>
-</div>
-</div>
-<hr>
-</section>
-<section id="definitions-and-documentation" class="level2">
-<h2 class="anchored" data-anchor-id="definitions-and-documentation">Definitions and documentation</h2>
-<ul>
-<li><a href="https://newtbvaccines.org/tb-vaccine-pipeline-terms/">Pipeline Definitions &amp; Terms</a><br>
-</li>
-<li><a href="../docs/data_dictionary.pdf">ALIGN Data Dictionary</a><br>
-</li>
-<li><a href="../docs/glossary.pdf">Glossary</a></li>
-</ul>
-<hr>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Roadmap
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<section id="q2-2026" class="level3">
-<h3 class="anchored" data-anchor-id="q2-2026">Q2 2026</h3>
-<ul>
-<li>Product categorization improvements<br>
-</li>
-<li>Better filtering and UX</li>
-</ul>
-</section>
-<section id="q3-2026" class="level3">
-<h3 class="anchored" data-anchor-id="q3-2026">Q3 2026</h3>
-<ul>
-<li>National Hub pilot (Kenya)<br>
-</li>
-<li>Expanded application coverage</li>
-</ul>
-</section>
-<section id="q4-2026" class="level3">
-<h3 class="anchored" data-anchor-id="q4-2026">Q4 2026</h3>
-<ul>
-<li>Advanced forecasting models<br>
-</li>
-<li>Portfolio prioritization tools</li>
-</ul>
-</section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">2027</h3>
-<ul>
-<li>Multi-country rollout<br>
-</li>
-<li>Demand + delivery data integration<br>
-</li>
-</ul>
-</section>
-</div>
-</div>
-</div>
-<hr>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Current limitations
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Some metrics are still under development<br>
-</li>
-<li>Coverage is partial<br>
-</li>
-<li>Projections may change as data updates</li>
-</ul>
-<p>Future releases will expand scope, improve accuracy, and enhance usability.</p>
-</div>
-</div>
-</div>
+<p><img src="../../www/logo/with_partners.png" height="120"></p>
+<p>© 2026 ALIGN Consortium. All rights reserved.</p>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://alignconsortium.org" target="_blank">Website</a> &nbsp;|&nbsp; <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/ALIGN-GlobalHub/GlobalHub" target="_blank">GitHub</a> &nbsp;|&nbsp; <i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:align@duke.edu">Contact</a></p>
+
+
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -473,13 +410,14 @@ Current limitations
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -494,7 +432,7 @@ Current limitations
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/align-globalhub\.github\.io\/GlobalHub\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

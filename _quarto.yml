@@ -6,11 +6,10 @@ website:
   title: "GlobalHub"
   site-url: https://align-globalhub.github.io/GlobalHub/
   navbar:
+    logo: www/logo/without_partners.png
     left:
       - href: index.qmd
         text: Home
-      - href: content/about.qmd
-        text: About
       - text: Documentation
         menu:
           - href: content/documentation/cost_effectiveness.qmd
@@ -43,6 +42,9 @@ website:
             text: Technical Guide
           - href: content/documentation/validation.qmd
             text: Validation
+      - href: https://align-global-hub.shinyapps.io/global_hub/
+        target: _blank
+        text: ALIGN Global Hub
 
 format:
   html:

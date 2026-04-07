@@ -1,490 +1,125 @@
 :root{
-  --brand-primary: #012169;   /* ALGIN: Primary Blue */
-  --brand-accent: #00539B;    /* ALGIN: Light Blue */
-  --brand-light: #ffffff;    /* Page background */
-  --text-dark: #2F2F2F;      /* ALGIN: Dark Gray */
-  --text-light: #2F2F2F;     /* ALGIN: Dark Gray */
-  --card-bg: #ffffff;        /* White cards */
-  --card-border: #BFBBBB;    /* ALGIN: Light Gray */
-  --card-shadow: rgba(215, 215, 215, 0.8);
-  --input-focus-border: var(--brand-accent);
-  --input-focus-shadow: rgba(0, 83, 155, 0.25);
+--brand-primary: #012169;
+--brand-accent: #00539B;
+--brand-light: #ffffff;
+--text-dark: #2F2F2F;
+--text-light: #2F2F2F;
+--card-bg: #ffffff;
+--card-border: #BFBBBB;
+--card-shadow: rgba(215, 215, 215, 0.8);
 
-  --success-color: #228B22; /* ALGIN: Green */
-  --error-color: #DC143C;   /* ALGIN: Crimson Red */
-  --highlight-color: #FFD700; /* ALGIN: Golden Yellow */
+--input-focus-border: var(--brand-accent);
+--input-focus-shadow: rgba(0, 83, 155, 0.25);
+
+--success-color: #228B22;
+--error-color: #DC143C;
+--highlight-color: #FFD700;
 }
 
-/* General text and body styling */
+/* =========================
+BASE
+========================= */
 body {
-  font-family: 'Inter', sans-serif;
-  color: var(--text-dark);
-  background-color: #f8f9fa; /* Lighter than white for better card contrast */
-  line-height: 1.6;
-  padding-bottom: 2rem;
+font-family: 'Inter', sans-serif;
+color: var(--text-dark);
+background-color: #f8f9fa;
+line-height: 1.6;
+padding-bottom: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter Tight', sans-serif;
-  color: var(--brand-primary);
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
+font-family: 'Inter Tight', sans-serif;
+color: var(--brand-primary);
+margin-top: 1rem;
+margin-bottom: 0.5rem;
+font-weight: 700;
 }
 
-p {
-  margin-bottom: 0.5rem;
-}
+p { margin-bottom: 0.5rem; }
 
-/* Navbar */
+/* =========================
+NAVBAR
+========================= */
 .navbar {
-  background-color: var(--brand-primary) !important;
-  box-shadow: 0 2px 4px var(--card-shadow);
-  padding: 0.75rem 1rem;
-}
-.navbar .navbar-brand, .navbar .nav-link {
-  color: var(--brand-light) !important;
-}
-.navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover {
-  color: var(--brand-light) !important;
-  border-bottom: 2px solid var(--brand-accent);
-}
-/* ===== Navbar brand + logo ===== */
-.navbar .navbar-brand{
-  display:flex; align-items:center; gap:.5rem;
-  margin-right:1.25rem; padding-right:1.25rem;
-  border-right: none;
-  font-size: 1.75rem !important;
-  background-color: white; /* Add white background */
-  padding: 0.25rem 0.75rem; /* Reduced padding */
-  border-radius: 0.25rem; /* Slightly rounded corners for aesthetics */
+background-color: var(--brand-primary) !important;
+position: sticky !important;
+top: 0;
+z-index: 1030;
+min-height: 72px;
 }
 
-/* Larger, crisp logo; remove baseline gap with display:block */
-.brand-logo{
-  height: 60px;       /* reduced for stickiness */
-  width: auto;
-  display: block;     /* avoids extra baseline space */
+.navbar .nav-link,
+.navbar .navbar-brand {
+color: var(--brand-light) !important;
 }
 
-@media (min-width: 1200px){
-  .brand-logo{ height: 60px; }
-}
-
-/* Title next to the logo */
-.brand-title{
-  color: var(--brand-light); font-weight: 600;
-  font-size: 1.35rem; line-height: 1;   /* keep tight and vertically centered */
-  letter-spacing: .2px;
-}
-
-/* ===== Navbar links — center vertically and match rhythm ===== */
-.navbar{ background-color: var(--brand-primary) !important; }
-.navbar-nav{ gap: 1rem; align-items: center; }   /* center the pill row */
-.navbar .nav-link{
-  color: var(--brand-light) !important;
-  padding: .5rem .75rem;                 /* balanced vertical padding */
-}
 .navbar .nav-link.active,
-.navbar .nav-link:focus,
-.navbar .nav-link:hover{
-  color: var(--brand-light) !important;
-  border-bottom: 2px solid var(--brand-accent);
+.navbar .nav-link:hover {
+border-bottom: 2px solid var(--brand-accent);
 }
 
-/* Optional: reduce the tall default navbar height on large screens */
-@media (min-width: 992px){
-  .navbar{ min-height: 56px; }
+.navbar-nav {
+gap: 1rem;
+align-items: center;
 }
 
-/* Ensure equal height for columns in g-3 rows */
-/* .row.g-3 {
-  display: flex;
-  flex-wrap: wrap;
-} */
-/* Force equal height columns everywhere */
-.row > [class*="col-"] {
-  display: flex;
-  flex-direction: column;
+.brand-logo {
+height: 60px;
+display: block;
 }
 
-.row > [class*="col-"] > .bslib-value-box {
-  flex-grow: 1;
-}
-/* .row.g-3 > [class*="col-"] {
-  display: flex;
-  flex-direction: column;
-}
-.row.g-3 > [class*="col-"] > .card {
-  flex-grow: 1;
-} */
-
-/* Accents */
-.hero-section { background-color: var(--brand-primary); }
-.hero-gradient { background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%); }
-.card-title, .value-box .value { color: var(--brand-primary); }
-.progress-bar, .mini-fill { background-color: var(--brand-accent); } /* Use accent for progress */
-
-/* Cards */
+/* =========================
+CARDS
+========================= */
 .card {
-  background-color: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 12px var(--card-shadow);
-  margin-bottom: 2.5rem; /* Increased spacing further */
+background-color: var(--card-bg);
+border: 1px solid var(--card-border);
+border-radius: 0.5rem;
+box-shadow: 0 4px 12px var(--card-shadow);
+margin-bottom: 2rem;
 }
 
-/* Specific spacing for nested cards */
-.card-body > .row > [class*="col-"] > .card {
-  margin-bottom: 1.5rem;
-  box-shadow: none; /* Remove shadow to prevent "blurry" overlapping with parent card */
-  border: 1px solid #dee2e6; /* Distinct border for nested items */
-  background-color: #fafbfc; /* Subtle offset background */
-}
-
-.card-body > .row > [class*="col-"] > .card.mb-0 {
-  margin-bottom: 0 !important;
-}
-
-/* Ensure nested card bodies have appropriate spacing */
-.card-body .card-body {
-  padding: 1.25rem;
-}
 .card-header {
-  background-color: var(--card-bg);
-  border-bottom: 1px solid var(--card-border);
-  color: var(--brand-primary);
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 700;
-  padding: 0.75rem 1.25rem;
-  min-height: 4.5rem; /* Increased for better wrapping support and consistency */
-  display: flex;
-  align-items: center;
-  font-size: 1.1rem; /* Slightly larger for clearer hierarchy */
-  line-height: 1.2;
+font-weight: 700;
+color: var(--brand-primary);
+display: flex;
+align-items: center;
 }
 
-.card-header > span, .card-header > div {
-  width: 100%;
-}
-.card-body {
-  padding: 1.75rem; /* More breathing room inside cards */
-}
+.card-body { padding: 1.5rem; }
 
-/* Value Boxes */
-
-/* 1) Reset value box layout to flex column (default behavior) */
-.bslib-value-box .value-box-area{
-  display: grid !important;
-  grid-template-rows: auto auto 1fr;
-  align-content: start;
-  /* display: flex !important; */
-  flex-direction: column !important;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
-  text-align: left !important;
-
-  /* consistent internal padding */
-  padding: 10px 8px !important;
+/* =========================
+STICKY HERO
+========================= */
+.sticky-hero-container {
+position: sticky;
+top: 72px;
+z-index: 1000;
+background-color: white;
+padding: 1.5rem 0;
+border-bottom: 2px solid var(--brand-primary);
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* 2) Title container: text + fixed icon lane */
-/* .bslib-value-box .vb-title{ */
-  /* display: grid !important; */
-  /* grid-template-columns: 1fr 24px;  text column + icon column */
-  /* column-gap: 8px; */
-  /* align-items: start; */
-  /* width: 100%; */
-  /* min-height: 2.5em; */
-  /* display: block; */
-/* } */
-.bslib-value-box .vb-title{
-  display: block;
-  padding-right: 28px; /* prevent title text from colliding with icon */
-}
-/* 3) Title text wraps cleanly */
-.bslib-value-box .vb-title-text{
-  display: block;
-  line-height: 1.25;
-  margin: 0;
-}
-
-/* 4) Icon */
-.bslib-value-box .vb-title-icon{
-  position: absolute;
-  top: 10px;
-  right: 12px;
-  z-index: 2;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* 5) Value text */
-.bslib-value-box span{
-  margin-top: 8px;
-  text-align: left !important;
-}
-
-.bslib-value-box {
-  position: relative;
-}
-/* Make the 'Analytics' pill bar visible and responsive */
-  /* Case 1: modern Shiny/bslib structure */
-  ul.nav[data-tabsetid='impact_tabs'] {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: .25rem .5rem;
-    overflow: visible !important;
-    align-items: center;
-  }
-  ul.nav[data-tabsetid='impact_tabs'] .nav-link { white-space: nowrap; }
-
-  /* Case 2: older structure where the UL is a child of the container with the id */
-  #impact_tabs > ul.nav.nav-pills {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: .25rem .5rem;
-    overflow: visible !important;
-    align-items: center;
-  }
-  #impact_tabs > ul.nav.nav-pills .nav-link { white-space: nowrap; }
-
-  /* Safety: never hide the nav bar via overflow rules on the container */
-  #impact_tabs { overflow: visible !important; }
-
-  /* Optional: give the bar a bit of breathing room so it won't collapse visually */
-  #impact_tabs > ul.nav.nav-pills,
-  ul.nav[data-tabsetid='impact_tabs'] { min-height: 40px; }
-analytics-row > [class*='col-'] { min-width: 0 !important; }
-
-/* 2) Contain widget widths to their parent */
-.card .html-widget,
-.card .echarts4r,
-.card .plotly,
-.card canvas,
-.card svg {
-  max-width: 100% !important;
-}
-
-/* Optional: if the pills still act weird, keep the UL visible and wrapping */
-#impact_tabs .nav.nav-pills,
-ul.nav[data-tabsetid='impact_tabs'] {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  align-items: center;
-  gap: .25rem .5rem;
-}
-.indicator-card{
-  background:var(--brand-light);border:1px solid var(--card-border);border-radius:12px;padding:12px 16px;
-}
-.indicator-row{display:flex;align-items:center;gap:.5rem;}
-.indicator-row + .indicator-row{margin-top:10px;}
-.indicator-row i{font-size:1.05rem;line-height:1;}
-.indicator-row i.yes{color:var(--success-color);}   /* green */
-.indicator-row i.no{color:var(--error-color);}    /* red   */
-.indicator-label{font-size:.98rem;}
-
-.subdomain-header { display:flex; align-items:center; gap:.75rem; margin: .25rem 0 .5rem; }
-
-.badge-round {
-  margin-left:auto;
-  background:#e9ecef; color:var(--text-dark); border-radius:9999px;
-  padding:.25rem .55rem; font-weight:600; font-size:.85rem;
-}
-.subdomain-card { margin-bottom:1rem; }
-
-/* tighter subdomain spacing */
-.subdomain-block { margin: 8px 0 14px; }
-.subdomain-title { margin: 2px 0 6px; }
-
-/* compact badge */
-.badge-round{
-  background:#e9ecef; color:var(--text-dark); border-radius:9999px;
-  padding:.2rem .5rem; font-weight:600; font-size:.82rem; line-height:1;
-}
-
-/* tighten the checklist card and rows */
-.indicator-card{ background:var(--brand-light); border:1px solid var(--card-border);
-  border-radius:12px; padding:10px 12px; }
-.indicator-row + .indicator-row{ margin-top:8px; } /* Increased margin */
-.indicator-row i{ font-size:.95rem; line-height:1; }
-.indicator-label{ font-size:.97rem; line-height:1.4; } /* Increased line-height */
-
-/* remove extra space that h5 would add if used elsewhere */
-#domain_bars h5{ margin:0; }
-
-.readiness-row { margin-bottom: 14px; }
-.readiness-row .lbl { font-weight: 600; }
-.progress { height: 8px; border-radius: 8px; background-color:#e9ecef; }
-.progress-bar { border-radius: 8px; background-color:var(--brand-accent); }
-.overall .progress { height: 10px; }
-
-.domain-summary-vertical .mini-row { margin-bottom: 12px; }
-.domain-summary-vertical .mini-label { font-weight: 600; color:var(--text-dark); }
-.domain-summary-vertical .mini-pct   { font-weight: 600; color:var(--text-dark); }
-.domain-summary-vertical .mini-track {
-  height: 8px; border-radius: 9999px; background:#e9ecef; overflow:hidden;
-}
-.domain-summary-vertical .mini-fill  {
-  height: 100%; border-radius: 9999px; background: var(--brand-accent);
-}
-
-#impact_tabs.nav-pills {
-flex-wrap: wrap !important;
-}
-#impact_tabs .nav-link {
-white-space: nowrap;
-}
-
-.readiness-row{ margin-bottom:14px; }
-.readiness-row .lbl{ font-weight:600; }
-.progress{ height:8px; border-radius:8px; background:#e9ecef; }
-.progress-bar{ height: 100%; border-radius:8px; background:var(--brand-accent); }
-
-.mini-row { margin-bottom: 10px; }
-.mini-label { font-weight: 600; color:var(--text-dark); }
-.mini-pct   { font-weight: 600; color:var(--text-dark); }
-.mini-track { height: 8px; border-radius:9999px; background:#e9ecef; overflow:hidden; }
-.mini-fill  { height: 100%; border-radius:9999px; background:var(--brand-accent); }
-
-.subdomain-card + .subdomain-card { margin-top: 1rem; }
-
-#pipeline_tbl .shiny-datagrid {
-  font-size: 1.1rem;
-  width: 100%;
-}
-
-.hero-highlight-text {
-  color: #ffffff !important;
-}
-
-/* Custom Tab Styling */
-.nav-pills .nav-link {
-  background-color: var(--card-border);
-  color: var(--text-dark);
-}
-
-.nav-pills .nav-link:hover {
-  background-color: var(--brand-accent);
-  color: #ffffff;
-}
-
-.nav-pills .nav-link.active {
-  background-color: var(--brand-accent);
-  color: #ffffff;
-}
-
+/* =========================
+FLOATING BUTTONS
+========================= */
 .floating-reset-btn {
-  position: fixed !important;
-  bottom: 28px !important;
-  right: 28px !important;
-
-  z-index: 99999 !important;
-
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 20px;
-
-  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
-}
-
-.floating-reset-btn:hover {
-  transform: scale(1.08);
-  transition: transform 0.15s ease;
+position: fixed;
+bottom: 28px;
+right: 28px;
+z-index: 99999;
+width: 52px;
+height: 52px;
+border-radius: 50%;
 }
 
 .floating-filter-status {
-  position: fixed !important;
-  bottom: 28px !important;
-  left: 28px !important;
-  z-index: 99999 !important;
-  background-color: white;
-  padding: 10px 15px;
-  border-radius: 8px;
-  border: 1px solid var(--card-border);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  max-width: 300px;
+position: fixed;
+bottom: 28px;
+left: 28px;
+z-index: 99999;
 }
-
-/* Sticky Hero Header */
-.sticky-hero-container {
-  position: sticky;
-  top: 72px; /* Offset for navbar height */
-  z-index: 1000;
-  background-color: white;
-  padding: 1.5rem 0; /* More vertical padding */
-  border-bottom: 2px solid var(--brand-primary);
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-  margin-bottom: 1.5rem;
-}
-
-/* Navbar adjust for sticky header */
-.navbar {
-  position: sticky !important;
-  top: 0;
-  z-index: 1030;
-  min-height: 72px;
-}
-
-/* Adjust main content padding to account for sticky header */
-#main_nav > .tab-content {
-  padding-top: 10px;
-}
-
-#cart_container {
-  margin-left: 20px;
-}
-
-/* Cart Styles */
-.cart-item {
-  padding: 8px 12px;
-  border-bottom: 1px solid #eee;
-}
-.cart-item:last-child {
-  border-bottom: none;
-}
-.btn-ghost {
-  background: transparent;
-  border: none;
-  color: #dc3545;
-}
-.btn-ghost:hover {
-  color: #a71d2a;
-}
-
-/* Input box visibility and highlight */
-.form-control, .form-select, .selectize-input {
-  border: 1px solid var(--card-border) !important;
-  border-radius: 0.375rem !important;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
-}
-
-.form-control:focus, .form-select:focus, .selectize-input.focus {
-  border-color: var(--input-focus-border) !important;
-  outline: 0 !important;
-  box-shadow: 0 0 0 0.25rem var(--input-focus-shadow) !important;
-}
-
-/* Selectize specific fixes */
-.selectize-input {
-  padding: 0.5rem 0.75rem !important;
-  min-height: 38px !important;
-}
-
-.selectize-dropdown {
-  border-radius: 0.375rem !important;
-  box-shadow: 0 6px 12px rgba(0,0,0,.175) !important;
-}
-
-
 
 /* =========================
    ABOUT PAGE (QUARTO)
@@ -496,14 +131,13 @@ white-space: nowrap;
   color: var(--text-dark);
   background-color: transparent;
   padding-bottom: 3rem;
+  overflow-x: hidden;
 }
 
-/* constrain width for readability */
 .about-body main {
   margin: 0 auto;
 }
 
-/* Headings inside About page - inherited from global now, but specific overrides if needed */
 .about-body h2 {
   font-size: 1.75rem;
   margin-top: 2.5rem;
@@ -526,45 +160,82 @@ white-space: nowrap;
   margin-bottom: 1.25rem;
 }
 
-/* Handle Quarto's callouts to match the app's card design */
+/* Quarto callout shell */
 .about-body .callout {
   border: 1px solid var(--card-border) !important;
+  border-left-width: 5px !important;
   border-radius: 0.5rem !important;
   background-color: var(--card-bg) !important;
   box-shadow: 0 4px 12px var(--card-shadow) !important;
   margin: 1.5rem 0 !important;
-  border-left-width: 5px !important; /* Keep the color strip */
+  overflow: hidden;
 }
 
-/* Color strips for callouts */
-.about-body .callout.callout-note { border-left-color: var(--brand-primary) !important; }
-.about-body .callout.callout-tip { border-left-color: var(--success-color) !important; }
-.about-body .callout.callout-warning { border-left-color: var(--highlight-color) !important; }
-.about-body .callout.callout-important { border-left-color: var(--error-color) !important; }
+/* Color strips */
+.about-body .callout.callout-note {
+  border-left-color: var(--brand-primary) !important;
+}
 
-/* Header of the callout (interactive area) */
+.about-body .callout.callout-tip {
+  border-left-color: var(--success-color) !important;
+}
 
+.about-body .callout.callout-warning {
+  border-left-color: var(--highlight-color) !important;
+}
+
+.about-body .callout.callout-important {
+  border-left-color: var(--error-color) !important;
+}
+
+/* Header */
+.about-body .callout-header {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75rem;
+  padding: 0.9rem 1.1rem !important;
+  min-height: 56px;
+  cursor: pointer;
+  background-color: var(--card-bg) !important;
+}
+
+/* Hide the accessibility label only visually */
+.about-body .callout-title-container .screen-reader-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Title */
 .about-body .callout-title-container {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   color: var(--brand-primary);
   line-height: 1.3;
+  flex: 1 1 auto;
 }
 
-/* Callout body content */
-.about-body .callout-body {
-  padding: 1.5rem 1.25rem !important;
-}
-
-/* Fix for Quarto's icon and toggle */
+/* Icon */
 .about-body .callout-icon-container {
-  margin-right: 0.75rem;
+  margin-right: 0.25rem;
   color: inherit;
+  flex: 0 0 auto;
+}
+
+/* Toggle */
+.about-body .callout-btn-toggle {
+  margin-left: auto;
+  flex: 0 0 auto;
 }
 
 .about-body .callout-toggle {
-  margin-left: auto;
   transition: transform 0.2s ease;
 }
 
@@ -572,14 +243,12 @@ white-space: nowrap;
   transform: rotate(180deg);
 }
 
-.about-body .callout-header {
-  padding: 0.25rem 0.2rem !important;
-  min-height: 50px;                  /* consistent height */
-  display: flex;
-  align-items: center;
+/* Body wrapper */
+.about-body .callout-body-container.callout-body {
+  padding: 1.25rem 1.1rem 1.25rem 1.1rem !important;
 }
 
-/* Style links within the about page */
+/* Links */
 .about-body a {
   color: var(--brand-accent);
   text-decoration: none;
@@ -592,7 +261,7 @@ white-space: nowrap;
   border-bottom: 1px solid var(--brand-accent);
 }
 
-/* Table styling for About page data sources */
+/* Tables */
 .about-body table {
   width: 100%;
   margin: 1.5rem 0;
@@ -612,7 +281,7 @@ white-space: nowrap;
   border-bottom: 1px solid #eee;
 }
 
-/* Metadata (top "Last updated") */
+/* Metadata */
 .about-meta {
   font-size: 0.95rem;
   color: var(--text-dark);
@@ -621,23 +290,12 @@ white-space: nowrap;
   margin-bottom: 1.5rem;
 }
 
-
-
-
-
-/*  Prevent Quarto from breaking your layout */
-
 .about-body img,
 .about-body iframe {
   max-width: 100%;
-}
-
-.about-body {
-  overflow-x: hidden;
 }
 
 .about-body hr {
   border-top: 1px solid var(--card-border);
   margin: 1.5rem 0;
 }
-

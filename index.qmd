@@ -2,8 +2,6 @@
 title: "GlobalHub"
 ---
 
-![](/www/logo/with_partners.png){height=120px}
-
 ## ALIGN Global Hub
 
 The ALIGN Global Hub is a **market intelligence platform** designed to support prioritization and introduction decisions for health products.
@@ -111,3 +109,13 @@ The **ALIGN Consortium** supports governments in strengthening health product pr
 - Whole-of-government coordination  
 
 → [About GlobalHub](content/about.qmd)
+
+![](/www/logo/with_partners.png){height=120px}
+
+© 2026 ALIGN Consortium. All rights reserved.
+
+{{< fa globe >}} [Website](https://alignconsortium.org){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa brands github >}} [GitHub](https://github.com/ALIGN-GlobalHub/GlobalHub){target="_blank"}
+&nbsp;|&nbsp;
+{{< fa envelope >}} [Contact](mailto:align@duke.edu)

@@ -54,15 +54,29 @@ app_ui = ui.page_navbar(
     # -------------------------
     header=ui.TagList(
         ui.tags.head(
+            # --- Your styles ---
             ui.tags.link(rel="stylesheet", href="styles.css"),
+            # --- Font Awesome ---
             ui.tags.link(
                 rel="stylesheet",
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
             ),
+            # --- ECharts ---
             ui.tags.script(
                 src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"
             ),
         ),
+        # =========================================================
+        # QUARTO + BOOTSTRAP (CRITICAL FOR CALLOUTS)
+        # =========================================================
+        ui.tags.link(rel="stylesheet", href="site_libs/quarto-html/tippy.css"),
+        ui.tags.link(
+            rel="stylesheet",
+            href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css",
+        ),
+        # =========================================================
+        # HERO HEADER (your existing UI)
+        # =========================================================
         ui.div(
             ui.div(
                 ui.div(
@@ -250,5 +264,9 @@ def server(input, output, session):
 app = App(
     app_ui,
     server,
-    static_assets=os.path.join(os.path.dirname(__file__), "www"),
+    # static_assets=os.path.join(os.path.dirname(__file__), "www"),
+    static_assets={
+        "/": os.path.join(os.path.dirname(__file__), "www"),
+        "/site_libs": os.path.join(os.path.dirname(__file__), "docs", "site_libs"),
+    },
 )

@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GlobalHub",
+    "section": "",
+    "text": "The ALIGN Global Hub is a market intelligence platform designed to support prioritization and introduction decisions for health products.\nIt integrates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view—enabling comparison, forecasting, and decision-making."
+  },
+  {
     "objectID": "index.html#align-global-hub",
     "href": "index.html#align-global-hub",
     "title": "GlobalHub",
-    "section": "ALIGN Global Hub",
-    "text": "ALIGN Global Hub\nThe ALIGN Global Hub is a market intelligence platform designed to support prioritization and introduction decisions for health products.\nIt integrates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view—enabling comparison, forecasting, and decision-making."
+    "section": "",
+    "text": "The ALIGN Global Hub is a market intelligence platform designed to support prioritization and introduction decisions for health products.\nIt integrates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view—enabling comparison, forecasting, and decision-making."
   },
   {
     "objectID": "index.html#why-this-exists",
@@ -39,7 +46,7 @@
     "href": "index.html#about-align",
     "title": "GlobalHub",
     "section": "About ALIGN",
-    "text": "About ALIGN\nThe ALIGN Consortium supports governments in strengthening health product prioritization and introduction through:\n\nData-driven decision-making\n\nPortfolio-based planning\n\nWhole-of-government coordination\n\n→ About GlobalHub"
+    "text": "About ALIGN\nThe ALIGN Consortium supports governments in strengthening health product prioritization and introduction through:\n\nData-driven decision-making\n\nPortfolio-based planning\n\nWhole-of-government coordination\n\n→ About GlobalHub\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
   },
   {
     "objectID": "content/documentation/horizon_sources.html",
