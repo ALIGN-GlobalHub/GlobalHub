@@ -4,6 +4,7 @@ project:
 
 website:
   title: "GlobalHub"
+  site-url: https://align-globalhub.github.io/GlobalHub/
   navbar:
     left:
       - href: index.qmd
