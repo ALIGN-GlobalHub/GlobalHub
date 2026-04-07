@@ -7,4 +7,4 @@ rsconnect-python/GlobalHub.json
 # OS / temp
 .DS_Store
 
-.quarto/project-cache-*/
+.quarto/project-cache-*/.quarto/
