@@ -1,19 +1,64 @@
 project:
-  type: default
+  type: website
   output-dir: docs
 
-render:
-  - content/about.qmd
-  - content/documentation/*.qmd
+website:
+  title: "GlobalHub"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: content/about.qmd
+        text: About
+      - text: Documentation
+        menu:
+          - href: content/documentation/cost_effectiveness.qmd
+            text: Cost-Effectiveness Analysis
+          - href: content/documentation/data_dictionary.qmd
+            text: Data Dictionary
+          - href: content/documentation/forecasting.qmd
+            text: Forecasting
+          - href: content/documentation/glossary.qmd
+            text: Glossary
+          - href: content/documentation/horizon_scanning.qmd
+            text: Horizon Scanning
+          - href: content/documentation/horizon_sources.qmd
+            text: Horizon Sources
+          - href: content/documentation/inclusion_criteria.qmd
+            text: Inclusion Criteria
+          - href: content/documentation/integration_pipeline.qmd
+            text: Integration Pipeline
+          - href: content/documentation/likelihood_of_success.qmd
+            text: Likelihood of Success
+          - href: content/documentation/methodology.qmd
+            text: Methodology
+          - href: content/documentation/mnch_framework.qmd
+            text: MNCH Framework
+          - href: content/documentation/product_milestones.qmd
+            text: Product Milestones
+          - href: content/documentation/source_methods.qmd
+            text: Source Methods
+          - href: content/documentation/technical_guide.qmd
+            text: Technical Guide
+          - href: content/documentation/validation.qmd
+            text: Validation
 
 format:
   html:
     toc: true
     number-sections: false
     theme: default
-    embed-resources: true
+    css: www/styles.css
 
 execute:
   echo: false
   warning: false
   message: false
+
+resources:
+  - www/
+
+render:
+  - index.qmd
+  - content/**/*.qmd
+  - "!scripts/**"

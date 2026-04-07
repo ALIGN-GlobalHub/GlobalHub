@@ -1,0 +1,113 @@
+---
+title: "GlobalHub"
+---
+
+![](/www/logo/with_partners.png){height=120px}
+
+## ALIGN Global Hub
+
+The ALIGN Global Hub is a **market intelligence platform** designed to support prioritization and introduction decisions for health products.
+
+It integrates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view—enabling comparison, forecasting, and decision-making.
+
+---
+
+## Why this exists
+
+Health product data are distributed across multiple systems, limiting the ability to:
+
+- Compare products across pipelines and applications  
+- Anticipate what is coming to market  
+- Align financing, procurement, and delivery planning  
+- Support structured prioritization decisions  
+
+The Global Hub addresses this by integrating and standardizing data into a unified analytical framework. :contentReference[oaicite:0]{index=0}
+
+---
+
+## What this platform supports
+
+The Hub is designed to inform key decision points:
+
+- **Prioritization** — which products to consider  
+- **Sequencing** — when to introduce them  
+- **Financing alignment** — how timelines match budgets  
+- **System readiness** — whether delivery systems are prepared  
+
+---
+
+## Explore the documentation
+
+::: {.grid}
+
+::: {.g-col-4}
+### Methods
+- [Methodology](content/documentation/methodology.qmd)  
+- [Integration Pipeline](content/documentation/integration_pipeline.qmd)  
+- [Validation](content/documentation/validation.qmd)
+:::
+
+::: {.g-col-4}
+### Data
+- [Data Dictionary](content/documentation/data_dictionary.qmd)  
+- [Source Methods](content/documentation/source_methods.qmd)  
+- [Horizon Sources](content/documentation/horizon_sources.qmd)  
+- [Inclusion Criteria](content/documentation/inclusion_criteria.qmd)
+:::
+
+::: {.g-col-4}
+### Analytics
+- [Forecasting](content/documentation/forecasting.qmd)  
+- [Likelihood of Success](content/documentation/likelihood_of_success.qmd)  
+- [Cost-Effectiveness Analysis](content/documentation/cost_effectiveness.qmd)
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-4}
+### Frameworks
+- [Product Milestones](content/documentation/product_milestones.qmd)  
+- [MNCH Framework](content/documentation/mnch_framework.qmd)  
+- [Horizon Scanning](content/documentation/horizon_scanning.qmd)
+:::
+
+::: {.g-col-4}
+### Reference
+- [Glossary](content/documentation/glossary.qmd)  
+- [Technical Guide](content/documentation/technical_guide.qmd)
+:::
+
+::: {.g-col-4}
+### Get Started
+- [About GlobalHub](content/about.qmd)  
+- [Full Methodology](content/documentation/methodology.qmd)
+:::
+
+:::
+
+---
+
+## Scope
+
+Current coverage focuses on high-priority applications:
+
+- HIV/AIDS  
+- Tuberculosis  
+- Malaria  
+- Maternal, newborn, and child health (MNCH)  
+
+Products are categorized by type (therapeutics, vaccines, diagnostics, devices) and indication.
+
+---
+
+## About ALIGN
+
+The **ALIGN Consortium** supports governments in strengthening health product prioritization and introduction through:
+
+- Data-driven decision-making  
+- Portfolio-based planning  
+- Whole-of-government coordination  
+
+→ [About GlobalHub](content/about.qmd)

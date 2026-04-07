@@ -1,0 +1,632 @@
+[
+  {
+    "objectID": "index.html#align-global-hub",
+    "href": "index.html#align-global-hub",
+    "title": "GlobalHub",
+    "section": "ALIGN Global Hub",
+    "text": "ALIGN Global Hub\nThe ALIGN Global Hub is a market intelligence platform designed to support prioritization and introduction decisions for health products.\nIt integrates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view—enabling comparison, forecasting, and decision-making."
+  },
+  {
+    "objectID": "index.html#why-this-exists",
+    "href": "index.html#why-this-exists",
+    "title": "GlobalHub",
+    "section": "Why this exists",
+    "text": "Why this exists\nHealth product data are distributed across multiple systems, limiting the ability to:\n\nCompare products across pipelines and applications\n\nAnticipate what is coming to market\n\nAlign financing, procurement, and delivery planning\n\nSupport structured prioritization decisions\n\nThe Global Hub addresses this by integrating and standardizing data into a unified analytical framework. :contentReferenceoaicite:0"
+  },
+  {
+    "objectID": "index.html#what-this-platform-supports",
+    "href": "index.html#what-this-platform-supports",
+    "title": "GlobalHub",
+    "section": "What this platform supports",
+    "text": "What this platform supports\nThe Hub is designed to inform key decision points:\n\nPrioritization — which products to consider\n\nSequencing — when to introduce them\n\nFinancing alignment — how timelines match budgets\n\nSystem readiness — whether delivery systems are prepared"
+  },
+  {
+    "objectID": "index.html#explore-the-documentation",
+    "href": "index.html#explore-the-documentation",
+    "title": "GlobalHub",
+    "section": "Explore the documentation",
+    "text": "Explore the documentation\n\n\nMethods\n\nMethodology\n\nIntegration Pipeline\n\nValidation\n\n\n\nData\n\nData Dictionary\n\nSource Methods\n\nHorizon Sources\n\nInclusion Criteria\n\n\n\nAnalytics\n\nForecasting\n\nLikelihood of Success\n\nCost-Effectiveness Analysis\n\n\n\n\n\nFrameworks\n\nProduct Milestones\n\nMNCH Framework\n\nHorizon Scanning\n\n\n\nReference\n\nGlossary\n\nTechnical Guide\n\n\n\nGet Started\n\nAbout GlobalHub\n\nFull Methodology"
+  },
+  {
+    "objectID": "index.html#scope",
+    "href": "index.html#scope",
+    "title": "GlobalHub",
+    "section": "Scope",
+    "text": "Scope\nCurrent coverage focuses on high-priority applications:\n\nHIV/AIDS\n\nTuberculosis\n\nMalaria\n\nMaternal, newborn, and child health (MNCH)\n\nProducts are categorized by type (therapeutics, vaccines, diagnostics, devices) and indication."
+  },
+  {
+    "objectID": "index.html#about-align",
+    "href": "index.html#about-align",
+    "title": "GlobalHub",
+    "section": "About ALIGN",
+    "text": "About ALIGN\nThe ALIGN Consortium supports governments in strengthening health product prioritization and introduction through:\n\nData-driven decision-making\n\nPortfolio-based planning\n\nWhole-of-government coordination\n\n→ About GlobalHub"
+  },
+  {
+    "objectID": "content/documentation/horizon_sources.html",
+    "href": "content/documentation/horizon_sources.html",
+    "title": "Integrated Horizon Scanning Sources",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/horizon_sources.html#overview",
+    "href": "content/documentation/horizon_sources.html#overview",
+    "title": "Integrated Horizon Scanning Sources",
+    "section": "Overview",
+    "text": "Overview\nThe ALIGN Global Hub integrates structured data across pharmaceutical R&D, regulatory systems, procurement platforms, and policy frameworks. This document profiles the key databases that contribute to the Hub."
+  },
+  {
+    "objectID": "content/documentation/horizon_sources.html#data-sources-integration-status",
+    "href": "content/documentation/horizon_sources.html#data-sources-integration-status",
+    "title": "Integrated Horizon Scanning Sources",
+    "section": "Data Sources Integration Status",
+    "text": "Data Sources Integration Status\n\n\n\n\n\n\n\n\n\n\nDatabase\nDomain\nScope\nStatus\nTimeline\n\n\n\n\nImpact Global Health R&D tracker\nR&D Funding\nGlobal\nCompleted\n—\n\n\nMMV antimalarial pipeline\nR&D Pipeline\nGlobal\nCompleted\n—\n\n\nDNDi portfolio\nR&D Portfolio\nGlobal\nCompleted\n—\n\n\nFIND DxConnect Test Directory\nDiagnostic directory\nGlobal\nCompleted\n—\n\n\nClinicaltrials.gov\nClinical Trials\nGlobal\nIn-progress\nQ2 2026\n\n\nAVAC clinical trials database\nClinical Trials\nGlobal\nIn-progress\nQ2 2026\n\n\nMPP LAPaL\nLicensing\nGlobal\nIn-progress\nQ2 2026\n\n\nMPP MedsPaL\nIP/Patents\nGlobal\nIn-progress\nQ2 2026\n\n\nWHO Prequalification list (PQ)\nPre-qualification\nGlobal\nNot started\nQ3 2026\n\n\nGlobal EML\nEML (Comparative)\nGlobal\n\nQ3 2026"
+  },
+  {
+    "objectID": "content/documentation/horizon_sources.html#database-profiles-key-examples",
+    "href": "content/documentation/horizon_sources.html#database-profiles-key-examples",
+    "title": "Integrated Horizon Scanning Sources",
+    "section": "Database Profiles (Key Examples)",
+    "text": "Database Profiles (Key Examples)\n\nImpact Global Health R&D Tracker\n\nFunction: Tracks R&D funding for neglected diseases, including malaria, TB, and HIV.\nCoverage: Global.\nProducts: 142 records.\nURL: https://www.impactglobalhealth.org/data/infectious-disease\nProfile: Provides insights into funding commitments and developer landscapes for major infectious diseases.\n\n\n\nFIND DxConnect Test Directory\n\nFunction: Comprehensive directory for global diagnostics.\nCoverage: Global.\nProducts: 221 records.\nURL: https://finddx.org/\nProfile: Key source for point-of-care and laboratory-based diagnostic tools for HIV, TB, and malaria.\n\n\n\nMMV (Medicines for Malaria Venture) Pipeline\n\nFunction: Tracks development of new antimalarial drugs.\nCoverage: Global.\nProducts: 117 records.\nURL: https://www.mmv.org/\nProfile: High-quality data on the current state of clinical and preclinical antimalarial therapeutics.\n\n\n\nDNDi (Drugs for Neglected Diseases initiative) Portfolio\n\nFunction: R&D portfolio for neglected diseases.\nCoverage: Global.\nProducts: Various therapeutics.\nURL: https://dndi.org/\nProfile: Focuses on patient-centric drug development for diseases that primarily affect LMICs."
+  },
+  {
+    "objectID": "content/documentation/horizon_sources.html#integration-methods",
+    "href": "content/documentation/horizon_sources.html#integration-methods",
+    "title": "Integrated Horizon Scanning Sources",
+    "section": "Integration Methods",
+    "text": "Integration Methods\nFor technical details on how these databases are harmonized into a single registry, refer to the Source Integration Methods.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/methodology.html",
+    "href": "content/documentation/methodology.html",
+    "title": "Project Methodology",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/methodology.html#overview",
+    "href": "content/documentation/methodology.html#overview",
+    "title": "Project Methodology",
+    "section": "Overview",
+    "text": "Overview\nThe ALIGN Global Hub transforms fragmented data into decision-ready insights through structured integration, validation, and projection methods. This report outlines the overarching methodology for the project."
+  },
+  {
+    "objectID": "content/documentation/methodology.html#data-integration-pipeline",
+    "href": "content/documentation/methodology.html#data-integration-pipeline",
+    "title": "Project Methodology",
+    "section": "Data Integration Pipeline",
+    "text": "Data Integration Pipeline\nThe Global Hub follows a multi-stage data processing pipeline:\n\n1. Data Collection\n\nIdentification of high-priority health applications: HIV/AIDS, Tuberculosis (TB), Malaria, and MNCH.\nContinuous scanning of global clinical trials, regulatory approvals, and procurement signals.\nRegular updates from key integrated databases (e.g., Impact Global Health, MMV, FIND).\n\n\n\n2. Harmonization and Deduplication\n\nName Matching: Standardization of product names across sources (e.g., brand names vs. generic names).\nIdentifier Mapping: Use of unique IDs (e.g., NCT trial numbers, WHO PQ IDs) to link records.\nRecord Reconciliation: When conflicting data exists (e.g., different trial phases across sources), the Hub applies rule-based logic (e.g., keep the most advanced phase).\n\n\n\n3. Quantitative Reference Framework\n\nDisease Burden: Integration of Disability-Adjusted Life Years (DALYs) from the Global Burden of Disease (GBD) study.\nPopulation Impact: Calculation of potential impact based on prevalence and target population size.\nCost-Effectiveness: Standardized analysis using published data or comparative benchmarks.\n\n\n\n4. Projection and Forecasting\n\nApplication of the Mao et al. (2025) methodology to estimate launch timelines and market uptake in LMICs based on historical patterns of similar products.\n\n\n\n5. Validation Protocol\n\nData validation is performed through internal reviews and cross-source comparisons to ensure high-quality and reliable outputs."
+  },
+  {
+    "objectID": "content/documentation/methodology.html#decision-support-workflow",
+    "href": "content/documentation/methodology.html#decision-support-workflow",
+    "title": "Project Methodology",
+    "section": "Decision Support Workflow",
+    "text": "Decision Support Workflow\nThe Hub supports a simple but robust decision-making workflow:\n\nExplore: Use the Overview page to filter by application, development stage, or geography.\nCompare: Add products to the comparison cart and view them on the Product Comparison page.\nInterpret: Review projected vs. actual milestone timelines and readiness scores.\nDecide: Use the structured data to support evidence-informed prioritization and introduction decisions."
+  },
+  {
+    "objectID": "content/documentation/methodology.html#future-roadmap",
+    "href": "content/documentation/methodology.html#future-roadmap",
+    "title": "Project Methodology",
+    "section": "Future Roadmap",
+    "text": "Future Roadmap\nThe methodology will continue to evolve as more data sources are integrated and forecasting models are refined. Upcoming enhancements include:\n\nAdvanced forecasting models.\nPortfolio prioritization tools.\nMulti-country rollout with demand and delivery data integration.\n\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/mnch_framework.html",
+    "href": "content/documentation/mnch_framework.html",
+    "title": "MNCH Definitions and Framework",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/mnch_framework.html#overview",
+    "href": "content/documentation/mnch_framework.html#overview",
+    "title": "MNCH Definitions and Framework",
+    "section": "Overview",
+    "text": "Overview\nMaternal, Newborn, and Child Health (MNCH) is a critical area of focus for the ALIGN Global Hub. This document defines the scope and framework used to categorize MNCH products."
+  },
+  {
+    "objectID": "content/documentation/mnch_framework.html#mnch-scope",
+    "href": "content/documentation/mnch_framework.html#mnch-scope",
+    "title": "MNCH Definitions and Framework",
+    "section": "MNCH Scope",
+    "text": "MNCH Scope\nThe Hub covers a wide range of health products designed to improve outcomes for mothers, newborns, and children. This includes:\n\nMaternal Health: Products for pregnancy, childbirth, and the postpartum period (e.g., uterotonics, iron supplements, blood pressure monitors).\nNewborn Health: Products for the first 28 days of life (e.g., resuscitation devices, chlorhexidine for cord care, specialized feeding equipment).\nChild Health: Products for infants and children up to age 5 (e.g., oral rehydration salts, zinc, point-of-care diagnostics for common childhood illnesses)."
+  },
+  {
+    "objectID": "content/documentation/mnch_framework.html#categorization-framework",
+    "href": "content/documentation/mnch_framework.html#categorization-framework",
+    "title": "MNCH Definitions and Framework",
+    "section": "Categorization Framework",
+    "text": "Categorization Framework\nMNCH products are categorized based on their intended use and the clinical conditions they address:\n\n1. Maternal Disorders\n\nHypertensive disorders of pregnancy (e.g., Pre-eclampsia, Eclampsia)\nMaternal hemorrhage\nMaternal sepsis and other maternal infections\nObstructed labor and uterine rupture\n\n\n\n2. Neonatal Disorders\n\nPreterm birth complications\nNeonatal encephalopathy (birth asphyxia and trauma)\nNeonatal sepsis and other infections\nHemolytic disease and other neonatal jaundice\n\n\n\n3. Child Health and Nutrition\n\nNutritional deficiencies (e.g., Vitamin A deficiency, Anemia)\nDiarrheal diseases\nLower respiratory infections (e.g., Pneumonia)\nVaccine-preventable diseases"
+  },
+  {
+    "objectID": "content/documentation/mnch_framework.html#data-sources-for-mnch",
+    "href": "content/documentation/mnch_framework.html#data-sources-for-mnch",
+    "title": "MNCH Definitions and Framework",
+    "section": "Data Sources for MNCH",
+    "text": "Data Sources for MNCH\nMNCH data is integrated from several key sources, including:\n\nImpact Global Health: Maternal health products and gynecological products trackers.\nWHO Global Health Estimates: For disease burden and prevalence data.\nUNICEF Supply Catalogue: For procurement signals and product availability."
+  },
+  {
+    "objectID": "content/documentation/mnch_framework.html#future-expansion",
+    "href": "content/documentation/mnch_framework.html#future-expansion",
+    "title": "MNCH Definitions and Framework",
+    "section": "Future Expansion",
+    "text": "Future Expansion\nALIGN is committed to continuously expanding the coverage of MNCH products in the Global Hub. Future updates will include more granular data on medical devices and digital health innovations specifically designed for MNCH in LMIC contexts.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/validation.html",
+    "href": "content/documentation/validation.html",
+    "title": "Validation Protocol",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/validation.html#overview",
+    "href": "content/documentation/validation.html#overview",
+    "title": "Validation Protocol",
+    "section": "Overview",
+    "text": "Overview\nThe accuracy and reliability of the ALIGN Global Hub depend on a rigorous data validation protocol. This document outlines the steps taken to ensure the quality of the data presented in the platform."
+  },
+  {
+    "objectID": "content/documentation/validation.html#validation-steps",
+    "href": "content/documentation/validation.html#validation-steps",
+    "title": "Validation Protocol",
+    "section": "Validation Steps",
+    "text": "Validation Steps\n\n1. Automated Data Quality Checks\nUpon every update of the data integration pipeline, the following automated checks are performed:\n\nSchema Validation: Ensuring all columns are present and contain data of the correct type.\nRange Checks: Identifying dates that are logically inconsistent (e.g., a launch date that occurs before a trial start date).\nDuplicate Detection: Flagging potential duplicate records for manual review.\n\n\n\n2. Cross-Source Comparison\nWhen a product is present in multiple integrated databases, the Hub automatically compares key fields (e.g., Trial Phase, Manufacturer). Significant discrepancies are flagged for investigation.\n\n\n3. Subject Matter Expert (SME) Review\nPeriodically, the ALIGN consortium partners (Duke GHIC, SAMRC, Keprecon, ENDA Santé) perform manual reviews of the product registry, focusing on:\n\nHigh-Priority Products: Ensuring the most recent and accurate data for products near market entry.\nNew Disease Areas: Validating the initial data load for newly added disease applications.\n\n\n\n4. User Feedback Loop\nThe Hub includes a mechanism for users to report data errors or provide updates directly to the ALIGN team. These reports are reviewed and incorporated into the next data update cycle."
+  },
+  {
+    "objectID": "content/documentation/validation.html#versioning-and-transparency",
+    "href": "content/documentation/validation.html#versioning-and-transparency",
+    "title": "Validation Protocol",
+    "section": "Versioning and Transparency",
+    "text": "Versioning and Transparency\nEach release of the Global Hub is versioned, and the “Last Updated” date is clearly displayed on the About page. This ensures that users are aware of the temporal scope of the data they are viewing.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/glossary.html",
+    "href": "content/documentation/glossary.html",
+    "title": "Glossary of Terms",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/glossary.html#overview",
+    "href": "content/documentation/glossary.html#overview",
+    "title": "Glossary of Terms",
+    "section": "Overview",
+    "text": "Overview\nThis glossary provides definitions for the common terms and acronyms used throughout the ALIGN Global Hub."
+  },
+  {
+    "objectID": "content/documentation/glossary.html#terms-and-acronyms",
+    "href": "content/documentation/glossary.html#terms-and-acronyms",
+    "title": "Glossary of Terms",
+    "section": "Terms and Acronyms",
+    "text": "Terms and Acronyms\n\n\n\n\n\n\n\nTerm / Acronym\nDefinition\n\n\n\n\nALIGN\nAdvancing Country-Led Innovation Introduction through Government Engagement and EvideNce.\n\n\nDALY\nDisability-Adjusted Life Year. A measure of overall disease burden, expressed as the number of years lost due to ill-health, disability, or early death.\n\n\nEML\nEssential Medicines List. A list of medicines that satisfy the priority health care needs of a population, maintained by the WHO and national governments.\n\n\nGBD\nGlobal Burden of Disease. A comprehensive regional and global research program of disease burden that assesses mortality and disability from major diseases, injuries, and risk factors.\n\n\nGRA\nGlobal Regulatory Approval. Refers to approval or prequalification by a global body such as the WHO, US FDA, or EMA.\n\n\nIHME\nInstitute for Health Metrics and Evaluation.\n\n\nLMIC\nLow- and Middle-Income Country.\n\n\nMNCH\nMaternal, Newborn, and Child Health.\n\n\nNRA\nNational Regulatory Authority. The government body responsible for regulating health products at the country level.\n\n\nP2I\nPortfolio-to-Impact. A model used to estimate development costs, timelines, and probabilities of success for health product portfolios.\n\n\nWHO PQ\nWorld Health Organization Prequalification. A service that ensures health products meet global standards of quality, safety, and efficacy."
+  },
+  {
+    "objectID": "content/documentation/glossary.html#further-reading",
+    "href": "content/documentation/glossary.html#further-reading",
+    "title": "Glossary of Terms",
+    "section": "Further Reading",
+    "text": "Further Reading\nFor more detailed information on specific fields and data sources, refer to the Data Dictionary and Integrated Horizon Scanning Sources.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/inclusion_criteria.html",
+    "href": "content/documentation/inclusion_criteria.html",
+    "title": "Inclusion and Exclusion Criteria",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/inclusion_criteria.html#overview",
+    "href": "content/documentation/inclusion_criteria.html#overview",
+    "title": "Inclusion and Exclusion Criteria",
+    "section": "Overview",
+    "text": "Overview\nThe ALIGN Global Hub maintains a structured registry of health products and innovations. This document outlines the criteria used to determine which products and databases are included in the platform."
+  },
+  {
+    "objectID": "content/documentation/inclusion_criteria.html#product-inclusion-criteria",
+    "href": "content/documentation/inclusion_criteria.html#product-inclusion-criteria",
+    "title": "Inclusion and Exclusion Criteria",
+    "section": "Product Inclusion Criteria",
+    "text": "Product Inclusion Criteria\nTo be included in the Global Hub, a health product must meet the following criteria:\n\n1. Disease Area\nThe product must target one or more of the following high-priority disease areas:\n\nHIV/AIDS\nTuberculosis (TB)\nMalaria\nMaternal, Newborn, and Child Health (MNCH)\n\n\n\n2. Development Stage\nThe Hub focuses on products that are in advanced development or already available in the market. A product is typically included if it has reached:\n\nPhase 2 Clinical Trials or later.\nNot have achieved Market Authorization in at least one of the partner countries (Senegal, South Africa, or Kenya).\n\n\n\n3. Innovation Category\nThe Hub tracks innovations across several categories: - Diagnostics (e.g., assays, point-of-care tests) - Therapeutics (e.g., drugs, biologics) - Vaccines - Vector-Controlled Products (e.g., bed nets, indoor residual spraying) - Medical Devices"
+  },
+  {
+    "objectID": "content/documentation/inclusion_criteria.html#product-exclusion-criteria",
+    "href": "content/documentation/inclusion_criteria.html#product-exclusion-criteria",
+    "title": "Inclusion and Exclusion Criteria",
+    "section": "Product Exclusion Criteria",
+    "text": "Product Exclusion Criteria\nProducts are excluded from the Hub if:\n\nThey target diseases outside the scope of ALIGN (e.g., non-communicable diseases not related to MNCH).\nThey are in the very early stages of development (Preclinical or Phase 1), unless they represent a major technological breakthrough.\nDevelopment has been officially terminated or “on hold” for more than 5 years without update."
+  },
+  {
+    "objectID": "content/documentation/inclusion_criteria.html#database-selection-criteria",
+    "href": "content/documentation/inclusion_criteria.html#database-selection-criteria",
+    "title": "Inclusion and Exclusion Criteria",
+    "section": "Database Selection Criteria",
+    "text": "Database Selection Criteria\nALIGN integrates multiple external databases to provide a comprehensive view of the landscape.\n\nInclusion Rationale\nDatabases are selected based on:\n\nRelevance: High coverage of the priority disease areas.\nCredibility: Maintained by reputable global health organizations, regulatory bodies, or research institutions.\nData Structure: Availability of structured data (API, CSV exports) that allows for automated or semi-automated integration.\nLMIC Focus: Preference for databases that provide signals relevant to Low- and Middle-Income Countries (LMICs).\n\n\n\nExclusion Rationale\nDatabases may be excluded if:\n\nThey require high-cost proprietary licenses that limit public dissemination.\nThe data is excessively fragmented or lacks sufficient identifiers (e.g., manufacturer name, product name) to allow for deduplication.\nThe source has not been updated for more than 2 years."
+  },
+  {
+    "objectID": "content/documentation/inclusion_criteria.html#update-frequency",
+    "href": "content/documentation/inclusion_criteria.html#update-frequency",
+    "title": "Inclusion and Exclusion Criteria",
+    "section": "Update Frequency",
+    "text": "Update Frequency\nThe inclusion status of products is reviewed quarterly as part of the data integration pipeline. If a product no longer meets the criteria (e.g., development is discontinued), it is marked accordingly in the database.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/integration_pipeline.html",
+    "href": "content/documentation/integration_pipeline.html",
+    "title": "Data Integration Pipeline",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/integration_pipeline.html#overview",
+    "href": "content/documentation/integration_pipeline.html#overview",
+    "title": "Data Integration Pipeline",
+    "section": "Overview",
+    "text": "Overview\nThe Data Integration Pipeline is the technical engine that powers the ALIGN Global Hub. It automates the collection, cleaning, and harmonization of data from multiple external sources."
+  },
+  {
+    "objectID": "content/documentation/integration_pipeline.html#pipeline-architecture",
+    "href": "content/documentation/integration_pipeline.html#pipeline-architecture",
+    "title": "Data Integration Pipeline",
+    "section": "Pipeline Architecture",
+    "text": "Pipeline Architecture\nThe pipeline consists of several key stages:\n\n1. Source Data Ingestion\n\nAutomated Downloads: Scripts to fetch the latest CSV or Excel exports from integrated databases.\nAPI Integration: Direct connection to external APIs (where available) to retrieve structured records.\n\n\n\n2. Cleaning and Transformation\n\nData Typing: Coercing fields to their correct types (e.g., numeric, date, boolean).\nString Cleaning: Removing special characters, extra whitespace, and standardizing case.\nNull Handling: Filling missing values with standardized placeholders (e.g., “Not available”).\n\n\n\n3. Harmonization Engine\n\nVocabulary Mapping: Translating source-specific terms into the ALIGN controlled vocabulary.\nDeduplication Logic: Identifying and merging records that represent the same physical product.\n\n\n\n4. Enrichment\n\nPopulation Data Merge: Linking product records to disease burden and population-at-risk data from PopulationData.csv.\nProjection Calculation: Applying the Mao et al. (2025) forecasting logic to estimate launch and uptake dates.\n\n\n\n5. Output Generation\n\nMaster Registry: Generation of the final ALIGN_health_product_data_horizon.csv used by the Shiny application.\nAudit Logs: Creation of logs that track changes and potential errors during the integration process.\n\nFor more information on the technical implementation, refer to the Technical Architecture Guide.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/cost_effectiveness.html",
+    "href": "content/documentation/cost_effectiveness.html",
+    "title": "Cost-Effectiveness Analysis",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/cost_effectiveness.html#overview",
+    "href": "content/documentation/cost_effectiveness.html#overview",
+    "title": "Cost-Effectiveness Analysis",
+    "section": "Overview",
+    "text": "Overview\nCost-effectiveness is a key factor in the prioritization of health products. This document outlines how cost-effectiveness data is captured and displayed in the ALIGN Global Hub."
+  },
+  {
+    "objectID": "content/documentation/cost_effectiveness.html#methodology",
+    "href": "content/documentation/cost_effectiveness.html#methodology",
+    "title": "Cost-Effectiveness Analysis",
+    "section": "Methodology",
+    "text": "Methodology\n\n1. Data Collection\nCost-effectiveness data is gathered from peer-reviewed literature, health technology assessment (HTA) reports, and global health organization publications.\n\n\n2. Standardized Metrics\nWhere possible, the Hub uses standardized metrics to allow for cross-product comparison:\n\nCost per DALY Averted: The cost required to avoid one Disability-Adjusted Life Year.\nCost per Case Averted: The cost required to prevent one case of the target disease.\n\n\n\n3. Data Presentation\nIn the Global Hub, cost-effectiveness is typically represented as:\n\nComparative Benchmarks: Showing how a product’s cost-effectiveness compares to existing standards of care.\nCategorical Ratings: High, Medium, or Low cost-effectiveness based on established thresholds (e.g., WHO-CHOICE thresholds)."
+  },
+  {
+    "objectID": "content/documentation/cost_effectiveness.html#current-limitations",
+    "href": "content/documentation/cost_effectiveness.html#current-limitations",
+    "title": "Cost-Effectiveness Analysis",
+    "section": "Current Limitations",
+    "text": "Current Limitations\n\nData Fragmentation: Cost-effectiveness data is often not available for products in early development.\nContext Specificity: Cost-effectiveness can vary significantly across different geographic and health system contexts."
+  },
+  {
+    "objectID": "content/documentation/cost_effectiveness.html#future-enhancements",
+    "href": "content/documentation/cost_effectiveness.html#future-enhancements",
+    "title": "Cost-Effectiveness Analysis",
+    "section": "Future Enhancements",
+    "text": "Future Enhancements\nALIGN is working to integrate more dynamic cost-effectiveness modeling tools into the Hub, allowing users to estimate impact based on country-specific cost and epidemiological parameters.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "BRAND.html",
+    "href": "BRAND.html",
+    "title": "ALIGN Global Hub Brand & Design Guidelines",
+    "section": "",
+    "text": "The ALIGN Global Hub is a structured intelligence platform for tracking, classifying, and comparing health products. The design should reflect professional-grade data analytics: clean, authoritative, and highly legible.\n\n\n\n\n\n\nPrimary Blue (--brand-primary): #012169 - Used for the main navigation and major headers.\nAccent Blue (--brand-accent): #00539B - Used for primary buttons, active links, and progress indicators.\nSuccess Green (--success-color): #228B22 - Used for positive status indicators and ‘Add’ actions.\nError Red (--error-color): #DC143C - Used for negative status indicators and ‘Delete/Remove’ actions.\nHighlight Yellow (--highlight-color): #FFD700 - Reserved for critical warnings or special focus areas.\nNeutral Grays:\n\nDark Text: #2F2F2F\nCard Border: #BFBBBB\nBackground: #F8F9FA (light gray for contrast with white cards)\n\n\n\n\n\n\nBody Text: ‘Inter’, sans-serif. Line height 1.6.\nHeaders: ‘Inter Tight’, sans-serif. Bold weight (700).\n\n\n\n\n\n\n\n\nSticky Hero: .sticky-hero-container - Remains fixed below the navbar.\nCards: .card - Standard container for all modules.\n\nBorder: 1px solid var(--card-border)\nRadius: 0.5rem\nShadow: 0 4px 12px rgba(0,0,0,0.05)\nSpacing: 2.5rem bottom margin for top-level cards; nested cards should use mb-0 or standardized row spacing (1.5rem bottom margin).\nHeaders: .card-header - Standardized min-height: 4.5rem with centered flex layout to accommodate wrapped text and maintain vertical alignment.\nNested Cards: Should remove box-shadows and use a subtle background (#fafbfc) to distinguish from parent containers.\n\n\n\n\n\n\nVisibility: All inputs (.form-control, .form-select, .selectize-input) have a defined border and 0.375rem radius.\nInteraction: Focus states use var(--brand-accent) for the border and a soft blue glow for the box-shadow to provide clear feedback.\n\n\n\n\n\nInternal card padding is set to 1.75rem.\nGrid gutters (g-3, g-4) are used consistently across rows.\nSentence Case: All UI text (labels, buttons, headers) should follow Sentence Case (e.g., “Product comparison” instead of “Product Comparison”).\n\n\n\n\n\n\nValue Boxes: Custom styled .bslib-value-box with absolute-positioned info icons.\nFloating Actions: .floating-reset-btn and .floating-filter-status for global controls that remain accessible during scrolling.\nComparison Heatmap: Uses a structured table with conditional formatting (green for “Yes”/high values, red for “No”/low values)."
+  },
+  {
+    "objectID": "BRAND.html#vision-strategy",
+    "href": "BRAND.html#vision-strategy",
+    "title": "ALIGN Global Hub Brand & Design Guidelines",
+    "section": "",
+    "text": "The ALIGN Global Hub is a structured intelligence platform for tracking, classifying, and comparing health products. The design should reflect professional-grade data analytics: clean, authoritative, and highly legible."
+  },
+  {
+    "objectID": "BRAND.html#visual-identity",
+    "href": "BRAND.html#visual-identity",
+    "title": "ALIGN Global Hub Brand & Design Guidelines",
+    "section": "",
+    "text": "Primary Blue (--brand-primary): #012169 - Used for the main navigation and major headers.\nAccent Blue (--brand-accent): #00539B - Used for primary buttons, active links, and progress indicators.\nSuccess Green (--success-color): #228B22 - Used for positive status indicators and ‘Add’ actions.\nError Red (--error-color): #DC143C - Used for negative status indicators and ‘Delete/Remove’ actions.\nHighlight Yellow (--highlight-color): #FFD700 - Reserved for critical warnings or special focus areas.\nNeutral Grays:\n\nDark Text: #2F2F2F\nCard Border: #BFBBBB\nBackground: #F8F9FA (light gray for contrast with white cards)\n\n\n\n\n\n\nBody Text: ‘Inter’, sans-serif. Line height 1.6.\nHeaders: ‘Inter Tight’, sans-serif. Bold weight (700)."
+  },
+  {
+    "objectID": "BRAND.html#ui-components-css-structure",
+    "href": "BRAND.html#ui-components-css-structure",
+    "title": "ALIGN Global Hub Brand & Design Guidelines",
+    "section": "",
+    "text": "Sticky Hero: .sticky-hero-container - Remains fixed below the navbar.\nCards: .card - Standard container for all modules.\n\nBorder: 1px solid var(--card-border)\nRadius: 0.5rem\nShadow: 0 4px 12px rgba(0,0,0,0.05)\nSpacing: 2.5rem bottom margin for top-level cards; nested cards should use mb-0 or standardized row spacing (1.5rem bottom margin).\nHeaders: .card-header - Standardized min-height: 4.5rem with centered flex layout to accommodate wrapped text and maintain vertical alignment.\nNested Cards: Should remove box-shadows and use a subtle background (#fafbfc) to distinguish from parent containers.\n\n\n\n\n\n\nVisibility: All inputs (.form-control, .form-select, .selectize-input) have a defined border and 0.375rem radius.\nInteraction: Focus states use var(--brand-accent) for the border and a soft blue glow for the box-shadow to provide clear feedback.\n\n\n\n\n\nInternal card padding is set to 1.75rem.\nGrid gutters (g-3, g-4) are used consistently across rows.\nSentence Case: All UI text (labels, buttons, headers) should follow Sentence Case (e.g., “Product comparison” instead of “Product Comparison”)."
+  },
+  {
+    "objectID": "BRAND.html#specialized-components",
+    "href": "BRAND.html#specialized-components",
+    "title": "ALIGN Global Hub Brand & Design Guidelines",
+    "section": "",
+    "text": "Value Boxes: Custom styled .bslib-value-box with absolute-positioned info icons.\nFloating Actions: .floating-reset-btn and .floating-filter-status for global controls that remain accessible during scrolling.\nComparison Heatmap: Uses a structured table with conditional formatting (green for “Yes”/high values, red for “No”/low values)."
+  },
+  {
+    "objectID": "content/documentation/technical_guide.html",
+    "href": "content/documentation/technical_guide.html",
+    "title": "Technical Architecture Guide",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/technical_guide.html#overview",
+    "href": "content/documentation/technical_guide.html#overview",
+    "title": "Technical Architecture Guide",
+    "section": "Overview",
+    "text": "Overview\nThe ALIGN Global Hub is a Python-based Shiny application designed for high-performance interactive data visualization. This guide provides a technical overview of the application’s architecture and design patterns."
+  },
+  {
+    "objectID": "content/documentation/technical_guide.html#application-structure",
+    "href": "content/documentation/technical_guide.html#application-structure",
+    "title": "Technical Architecture Guide",
+    "section": "Application Structure",
+    "text": "Application Structure\nThe repository is organized into several modules for maintainability:\n\napp.py: The main entry point of the Shiny application. It initializes the UI and server logic.\nmodules/: Contains page-specific logic (e.g., overview_and_innovations.py, comparison.py, about.py).\nutils/: Helper functions for data loading, UI components, and theme configuration.\nwww/: Static assets, CSS, and data files (e.g., ALIGN_health_product_data_horizon.csv).\nscripts/: Data processing scripts used to clean and harmonize the raw datasets."
+  },
+  {
+    "objectID": "content/documentation/technical_guide.html#core-architecture-and-design-patterns",
+    "href": "content/documentation/technical_guide.html#core-architecture-and-design-patterns",
+    "title": "Technical Architecture Guide",
+    "section": "Core Architecture and Design Patterns",
+    "text": "Core Architecture and Design Patterns\n\n1. Modular Shiny Components\nThe application uses the @module.ui and @module.server decorators to namespace components. This prevents ID collisions and allows for easier testing of individual pages.\n\n\n2. Reactive State Management\nA shared reactive cart is implemented in the main server function in app.py. This state is passed to the module servers as an argument, enabling seamless communication between pages (e.g., adding a product to the cart on the Overview page and viewing it on the Comparison page).\n\n\n3. Unified Reactive Filtering\nThe application uses a tiered reactive data strategy to ensure data consistency across multiple UI components (tables, charts, and projections).\n\nbase_df(): Core data for the page.\ndisease_df(): Filters the data based on the user-selected disease area.\npage_df(): Consumes all active filters (e.g., dropdowns and plot clicks) to provide a final dataset for visual components.\n\n\n\n4. Cross-Filtering with Plotly\nThe dashboard uses Plotly for interactive charts (Treemaps, Pie charts). These charts capture on_click events to update a reactive.Value, which then propagates the selection to other page components like the Product Explorer table.\n\n\n5. Data Harmonization Pipeline\nThe utils/data_loader.py script orchestrates the loading and processing of data. It handles:\n\nDate Normalization: Using pd.to_datetime with dayfirst=True and format='mixed'.\nNumeric Coercion: Ensuring all metrics (scores, DALYs, costs) are correctly typed.\nData Merging: Integrating external PopulationData.csv into the main product registry."
+  },
+  {
+    "objectID": "content/documentation/technical_guide.html#ui-and-ux-standards",
+    "href": "content/documentation/technical_guide.html#ui-and-ux-standards",
+    "title": "Technical Architecture Guide",
+    "section": "UI and UX Standards",
+    "text": "UI and UX Standards\n\nDesign System\nThe application follows a consistent design system defined in BRAND.md and www/styles.css.\n\nPrimary Color: #012169 (Primary Blue)\nAccent Color: #00539B (Accent Blue)\nTypography: ‘Inter Tight’ for headers and ‘Inter’ for body text.\n\n\n\nAccessibility\nStandardized information tooltips are used throughout the application to provide context. The utils/ui_helpers.py module provides helper functions like with_tooltip and info_tooltip for this purpose."
+  },
+  {
+    "objectID": "content/documentation/technical_guide.html#development-and-deployment",
+    "href": "content/documentation/technical_guide.html#development-and-deployment",
+    "title": "Technical Architecture Guide",
+    "section": "Development and Deployment",
+    "text": "Development and Deployment\nThe project uses uv for Python dependency management. To run the application locally, use:\nuv run shiny run app.py\nFor more information on the development environment and prerequisites, refer to the README.md.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/source_methods.html",
+    "href": "content/documentation/source_methods.html",
+    "title": "Source Integration Methods",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/source_methods.html#overview",
+    "href": "content/documentation/source_methods.html#overview",
+    "title": "Source Integration Methods",
+    "section": "Overview",
+    "text": "Overview\nThe ALIGN Global Hub harmonizes data from diverse external sources into a unified product registry. This document describes the technical methods and rules used for this integration."
+  },
+  {
+    "objectID": "content/documentation/source_methods.html#the-integration-process",
+    "href": "content/documentation/source_methods.html#the-integration-process",
+    "title": "Source Integration Methods",
+    "section": "The Integration Process",
+    "text": "The Integration Process\n\n1. Data Extraction\nData is extracted from external databases (e.g., CSV, Excel, API) and loaded into a staging environment.\n\n\n2. Standardization\nField names and values are mapped to a common schema.\n\nDate Standardization: All dates are converted to a standard ISO format (YYYY-MM-DD).\nCategorical Mapping: Product types (e.g., “Diagnostic Test”, “Assay”) are mapped to a set of controlled vocabularies (e.g., “Diagnostic”).\n\n\n\n3. Record Linking and Deduplication\nThe Hub uses a combination of automated and manual methods to link records across sources:\n\nExact Match: Matching on product name and manufacturer.\nFuzzy Match: Handling variations in spelling, synonyms, and brand names.\nIdentifier Match: Using unique IDs like ClinicalTrials.gov (NCT) numbers or WHO Prequalification IDs.\n\n\n\n4. Rule-Based Reconciliation\nWhen multiple sources provide information on the same product, the following rules are applied:\n\nTrial Phase: The highest (most advanced) phase is recorded.\nApproval Status: If any source indicates a “Yes” for regulatory approval (e.g., WHO PQ, US FDA), the product is marked as approved.\nProjected Dates: Dates from the most recent data extraction are prioritized."
+  },
+  {
+    "objectID": "content/documentation/source_methods.html#quality-control",
+    "href": "content/documentation/source_methods.html#quality-control",
+    "title": "Source Integration Methods",
+    "section": "Quality Control",
+    "text": "Quality Control\n\nAutomated Checks: Identification of missing values, out-of-range dates, and inconsistent categorical data.\nManual Review: Periodic review by subject matter experts to resolve complex duplicates and validate high-priority product records."
+  },
+  {
+    "objectID": "content/documentation/source_methods.html#integration-frequency",
+    "href": "content/documentation/source_methods.html#integration-frequency",
+    "title": "Source Integration Methods",
+    "section": "Integration Frequency",
+    "text": "Integration Frequency\nThe data integration pipeline is run on a quarterly basis to ensure the Hub reflects the most current information from external sources.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/data_dictionary.html",
+    "href": "content/documentation/data_dictionary.html",
+    "title": "Data Dictionary",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/data_dictionary.html#overview",
+    "href": "content/documentation/data_dictionary.html#overview",
+    "title": "Data Dictionary",
+    "section": "Overview",
+    "text": "Overview\nThis Data Dictionary defines the fields and terms used in the ALIGN Global Hub. It provides clarity on the source, definition, and possible values for each metric displayed in the dashboard."
+  },
+  {
+    "objectID": "content/documentation/data_dictionary.html#key-terminology",
+    "href": "content/documentation/data_dictionary.html#key-terminology",
+    "title": "Data Dictionary",
+    "section": "Key Terminology",
+    "text": "Key Terminology\n\nGlobal Regulatory Approval (GRA)\nThe Global Regulatory Approval field indicates whether a health product has received authorization or prequalification by a global body.\n\nIncludes: WHO Prequalification (PQ), US FDA approval, EMA approval, or other approvals from Stringent Regulatory Authorities (SRA).\nEmergency Use: Includes Emergency Use Authorizations (EUA) where applicable for public health emergencies.\nValues: Yes, No, Under Review.\n\n\n\nTrial Phase\nThe development stage of the product based on clinical trial activity.\n\nRule: If a product is in multiple phases simultaneously (e.g., Phase 2/3), the highest phase is recorded.\nValues:\n\nPhase 1: Initial human safety testing.\nPhase 2: Efficacy and safety testing in target populations.\nPhase 3: Large-scale confirmatory testing.\nPhase 4: Post-marketing surveillance.\nApproved / Marketed: Formally approved for use.\n\n\n\n\nNational Regulatory Authority (NRA)\nIndicates the status of national marketing authorization in specific countries (e.g., Kenya, Senegal, South Africa).\n\nValues: Yes, No, Under Review.\n\n\n\nWHO Essential Medicines List (EML)\nIndicates if the product is listed on the WHO Model List of Essential Medicines or the Model List of Essential Diagnostics.\n\nValues: Yes, No."
+  },
+  {
+    "objectID": "content/documentation/data_dictionary.html#field-definitions",
+    "href": "content/documentation/data_dictionary.html#field-definitions",
+    "title": "Data Dictionary",
+    "section": "Field Definitions",
+    "text": "Field Definitions\n\n\n\n\n\n\n\n\nField Name\nDescription\nSource\n\n\n\n\ninnovation\nThe primary name of the product or innovation.\nAggregated\n\n\nmanufacturer\nThe primary manufacturer or lead developer of the product.\nAggregated\n\n\ndisease\nThe target disease area (HIV, TB, Malaria, MNCH).\nAggregated\n\n\ncategory\nThe type of product (Diagnostic, Therapeutic, Vaccine, etc.).\nAggregated\n\n\ntrial_status\nThe current clinical development stage.\nAggregated\n\n\nproj_date_first_launch\nThe projected or observed date of first country-level launch.\nMao et al. (2025) Method\n\n\nproj_date_lmic_20_uptake\nThe projected date for 20% market uptake in LMICs.\nMao et al. (2025) Method\n\n\npeople_at_risk\nEstimated number of individuals at risk for the disease.\nPopulation Data (GBD/WHO)\n\n\ndalys\nDisability-Adjusted Life Years attributable to the disease.\nIHME / GBD\n\n\nreadiness\nA composite score (0-100) indicating introduction readiness.\nALIGN Assessment"
+  },
+  {
+    "objectID": "content/documentation/data_dictionary.html#methodology-references",
+    "href": "content/documentation/data_dictionary.html#methodology-references",
+    "title": "Data Dictionary",
+    "section": "Methodology References",
+    "text": "Methodology References\nFor detailed information on how projected dates and readiness scores are calculated, please refer to the following documents:\n\nForecasting Methods (Mao et al. 2025)\nMethodology Report\nProduct Milestones\n\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/forecasting.html",
+    "href": "content/documentation/forecasting.html",
+    "title": "Forecasting and Projection Methods",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/forecasting.html#overview",
+    "href": "content/documentation/forecasting.html#overview",
+    "title": "Forecasting and Projection Methods",
+    "section": "Overview",
+    "text": "Overview\nThe ALIGN Global Hub utilizes advanced forecasting models to estimate the development timelines and market entry of health products. This document explains the primary methodology used for these projections."
+  },
+  {
+    "objectID": "content/documentation/forecasting.html#mao-et-al.-2025-methodology",
+    "href": "content/documentation/forecasting.html#mao-et-al.-2025-methodology",
+    "title": "Forecasting and Projection Methods",
+    "section": "Mao et al. (2025) Methodology",
+    "text": "Mao et al. (2025) Methodology\nThe core of our forecasting engine is based on the methodology published by Mao, Wenhui et al. in The Lancet Global Health (2025). This research analyzed historical data from 59 health products to establish patterns in the development, launch, and scale-up of innovations in Low- and Middle-Income Countries (LMICs).\n\nKey Projections\n\n1. Date of First Country-Level Launch\n\nDefinition: The projected date when a product is expected to be launched in its first country after receiving regulatory approval.\nCalculation: The model uses median time intervals from historical data, adjusted for the product’s category (e.g., vaccine, drug, diagnostic) and its current development phase.\n\n\n\n2. 20% Market Uptake in LMICs\n\nDefinition: The projected date when a product reaches a 20% uptake rate across its target population in LMIC markets.\nCalculation: Based on historical “uptake curves” of similar products, considering factors like financing availability, system readiness, and public health priority."
+  },
+  {
+    "objectID": "content/documentation/forecasting.html#reference",
+    "href": "content/documentation/forecasting.html#reference",
+    "title": "Forecasting and Projection Methods",
+    "section": "Reference",
+    "text": "Reference\n\nMao, Wenhui et al. Development, launch, and scale-up of health products in low-income and middle-income countries: a retrospective analysis on 59 health products. The Lancet Global Health, Volume 13, Issue 6, e1132 - e1139.\n\nRead the Full Article"
+  },
+  {
+    "objectID": "content/documentation/forecasting.html#speedometer-projections",
+    "href": "content/documentation/forecasting.html#speedometer-projections",
+    "title": "Forecasting and Projection Methods",
+    "section": "Speedometer Projections",
+    "text": "Speedometer Projections\nIn the Global Hub dashboard, these projections are often displayed alongside a “Speedometer Projection” indicator. This informs the user that the date is an estimate based on the Mao et al. framework, rather than an observed event.\n\nInterpreting Projections\nUsers should keep in mind:\n\nProjected timelines are estimates and are subject to change as new data becomes available.\nProjections reflect general historical patterns and may not account for unique challenges or breakthroughs specific to a single product.\nProjections should be used to support strategic planning, but should be interpreted in conjunction with national priorities and system capacity.\n\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/horizon_scanning.html",
+    "href": "content/documentation/horizon_scanning.html",
+    "title": "Integrated Horizon Scanning Report",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/horizon_scanning.html#overview",
+    "href": "content/documentation/horizon_scanning.html#overview",
+    "title": "Integrated Horizon Scanning Report",
+    "section": "Overview",
+    "text": "Overview\nThe Global Hub builds on ALIGN’s comprehensive horizon scanning system. This report provides a high-level summary of the horizon scanning activities and their findings."
+  },
+  {
+    "objectID": "content/documentation/horizon_scanning.html#horizon-scanning-goals",
+    "href": "content/documentation/horizon_scanning.html#horizon-scanning-goals",
+    "title": "Integrated Horizon Scanning Report",
+    "section": "Horizon Scanning Goals",
+    "text": "Horizon Scanning Goals\nThe primary goals of the ALIGN horizon scanning system are to:\n\nIdentify emerging health products and technologies.\nTrack development and regulatory progress over time.\nAnticipate market entry and potential system bottlenecks.\nSupport country-led prioritization and introduction planning."
+  },
+  {
+    "objectID": "content/documentation/horizon_scanning.html#key-findings-summary",
+    "href": "content/documentation/horizon_scanning.html#key-findings-summary",
+    "title": "Integrated Horizon Scanning Report",
+    "section": "Key Findings (Summary)",
+    "text": "Key Findings (Summary)\nBased on the most recent data extraction (February 2026):\n\n1. Robust Pipeline for Infectious Diseases\nThe pipeline for HIV, TB, and malaria remains strong, with a significant number of products in Phase 2 and Phase 3 development.\n\n\n2. Growth in Diagnostic Innovations\nThere is a notable increase in the development of point-of-care and laboratory-based diagnostics, particularly for TB and malaria.\n\n\n3. MNCH Expansion\nThe Hub has successfully integrated initial datasets for maternal, newborn, and child health, revealing a growing portfolio of medical devices and therapeutics targeting maternal disorders."
+  },
+  {
+    "objectID": "content/documentation/horizon_scanning.html#full-report",
+    "href": "content/documentation/horizon_scanning.html#full-report",
+    "title": "Integrated Horizon Scanning Report",
+    "section": "Full Report",
+    "text": "Full Report\nFor a detailed analysis of the current global health product landscape, including deep-dives into specific disease areas and geographic trends, please refer to the full Horizon Scanning Report (available for download in PDF format from the project website)."
+  },
+  {
+    "objectID": "content/documentation/horizon_scanning.html#methodology-reference",
+    "href": "content/documentation/horizon_scanning.html#methodology-reference",
+    "title": "Integrated Horizon Scanning Report",
+    "section": "Methodology Reference",
+    "text": "Methodology Reference\nFor information on how the horizon scan is performed and how data is integrated, see the Project Methodology and Source Integration Methods documents.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/likelihood_of_success.html",
+    "href": "content/documentation/likelihood_of_success.html",
+    "title": "Likelihood of Success Analysis",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/likelihood_of_success.html#overview",
+    "href": "content/documentation/likelihood_of_success.html#overview",
+    "title": "Likelihood of Success Analysis",
+    "section": "Overview",
+    "text": "Overview\nDeveloping and introducing new health products is inherently risky. The ALIGN Global Hub provides insights into the “Likelihood of Success” for products in the pipeline."
+  },
+  {
+    "objectID": "content/documentation/likelihood_of_success.html#success-probability-framework",
+    "href": "content/documentation/likelihood_of_success.html#success-probability-framework",
+    "title": "Likelihood of Success Analysis",
+    "section": "Success Probability Framework",
+    "text": "Success Probability Framework\nThe Hub applies a multi-dimensional framework to assess the probability of a product reaching the market and achieving impact.\n\n1. Technical and Regulatory Success\n\nDefinition: The probability that a product will successfully complete clinical trials and receive regulatory approval.\nAssessment: Based on historical success rates for the product’s development archetype (e.g., using the P2I model).\n\n\n\n2. Market and Policy Success\n\nDefinition: The probability that an approved product will be successfully procured, introduced into guidelines, and achieve significant market uptake.\nAssessment: Based on signals such as inclusion in WHO EMLs, funding commitments from major donors (e.g., Global Fund, Gavi), and manufacturer capacity."
+  },
+  {
+    "objectID": "content/documentation/likelihood_of_success.html#portfolio-to-impact-p2i-model",
+    "href": "content/documentation/likelihood_of_success.html#portfolio-to-impact-p2i-model",
+    "title": "Likelihood of Success Analysis",
+    "section": "Portfolio-to-Impact (P2I) Model",
+    "text": "Portfolio-to-Impact (P2I) Model\nThe Hub utilizes the Portfolio-to-Impact (P2I) model to estimate these probabilities. The P2I model uses a rule-based approach to assign “archetypes” to products, which then drive the estimated success rates and development costs."
+  },
+  {
+    "objectID": "content/documentation/likelihood_of_success.html#interpreting-success-scores",
+    "href": "content/documentation/likelihood_of_success.html#interpreting-success-scores",
+    "title": "Likelihood of Success Analysis",
+    "section": "Interpreting Success Scores",
+    "text": "Interpreting Success Scores\n\nHigh Probability: Products with strong clinical data, clear regulatory pathways, and high public health demand.\nModerate Probability: Products in mid-stage development with promising but incomplete data.\nLow Probability: Early-stage innovations or products targeting particularly challenging technical areas.\n\nNote: Success scores are intended for strategic portfolio planning and should not be used as the sole basis for individual product decisions.\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/documentation/product_milestones.html",
+    "href": "content/documentation/product_milestones.html",
+    "title": "Product Introduction Milestones",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/documentation/product_milestones.html#overview",
+    "href": "content/documentation/product_milestones.html#overview",
+    "title": "Product Introduction Milestones",
+    "section": "Overview",
+    "text": "Overview\nTracking the journey of a health product from development to introduction is essential for strategic planning. This document defines the key milestones tracked in the ALIGN Global Hub."
+  },
+  {
+    "objectID": "content/documentation/product_milestones.html#tracked-milestones",
+    "href": "content/documentation/product_milestones.html#tracked-milestones",
+    "title": "Product Introduction Milestones",
+    "section": "Tracked Milestones",
+    "text": "Tracked Milestones\nThe Hub monitors the following critical points in a product’s lifecycle:\n\n1. Proof of Concept\n\nDefinition: The point at which a product has demonstrated its intended effect in a relevant model (e.g., animal model or early human trials).\nSignificance: Marks the transition from discovery to formal development.\n\n\n\n2. Marketing Authorization\n\nDefinition: Formal approval from a National Regulatory Authority (NRA) or a global body (e.g., WHO PQ, US FDA) to market and sell the product.\nSignificance: A prerequisite for procurement and large-scale introduction.\n\n\n\n3. First Launch in LMICs\n\nDefinition: The first time the product is commercially available or introduced through a public health program in a Low- or Middle-Income Country.\nSignificance: A key indicator of global access and equitable introduction.\n\n\n\n4. 20% Market Uptake\n\nDefinition: The milestone at which the product has reached 20% of its target population in LMIC markets.\nSignificance: Indicates that the product has successfully moved beyond initial introduction into a scaling phase."
+  },
+  {
+    "objectID": "content/documentation/product_milestones.html#data-and-projections",
+    "href": "content/documentation/product_milestones.html#data-and-projections",
+    "title": "Product Introduction Milestones",
+    "section": "Data and Projections",
+    "text": "Data and Projections\n\nObserved Milestones: Dates for milestones that have already occurred are captured from clinical trial registries, regulatory databases, and manufacturer announcements.\nProjected Milestones: For products still in development, the Hub provides estimated dates based on the Mao et al. (2025) forecasting methodology."
+  },
+  {
+    "objectID": "content/documentation/product_milestones.html#use-cases",
+    "href": "content/documentation/product_milestones.html#use-cases",
+    "title": "Product Introduction Milestones",
+    "section": "Use Cases",
+    "text": "Use Cases\nThese milestones support several decision points:\n\nPrioritization: Identifying which products are closest to market.\nSequencing: Planning the order of product introductions based on expected timelines.\nFinancing Alignment: Aligning budget cycles with projected procurement dates.\n\n\n\n© 2026 ALIGN Consortium. All rights reserved.\n Website  |   GitHub  |   Contact"
+  },
+  {
+    "objectID": "content/about.html",
+    "href": "content/about.html",
+    "title": "GlobalHub",
+    "section": "",
+    "text": "Last updated: 2026-03-27"
+  },
+  {
+    "objectID": "content/about.html#what-is-align",
+    "href": "content/about.html#what-is-align",
+    "title": "GlobalHub",
+    "section": "What is ALIGN?",
+    "text": "What is ALIGN?\nThe Advancing Country-Led Innovation Introduction through Government Engagement and EvideNce (ALIGN) Consortium aims to improve health outcomes by strengthening how health products are prioritized and introduced within countries.\nALIGN brings together the Duke Global Health Innovation Center, the South African Medical Research Council (SAMRC), Keprecon, and ENDA Santé to support governments in Kenya, Senegal, and South Africa across:\n\nWhole-of-government coordination and capacity strengthening\n\nData-driven decision-making\n\nWhole-of-market engagement (national, regional, global)\n\nPortfolio-based planning\n\nResources:\nALIGN website\nALIGN Substack"
+  },
+  {
+    "objectID": "content/about.html#what-is-the-align-global-hub",
+    "href": "content/about.html#what-is-the-align-global-hub",
+    "title": "GlobalHub",
+    "section": "What is the ALIGN Global Hub?",
+    "text": "What is the ALIGN Global Hub?\nThe ALIGN Global Hub is a market intelligence platform designed to support prioritization and introduction decisions for health products.\nIt aggregates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view.\nThis tool enables users to:\n\nCompare products across pipelines and applications\n\nAnticipate what is coming to market\n\nSupport evidence-informed prioritization decisions\n\n\n\n\n\n\n\n\nNoteWhy does this Hub exist?\n\n\n\n\n\nHealth product data are fragmented across multiple systems:\n\nClinical trial registries\n\nRegulatory agencies\n\nProcurement databases\n\nPolicy lists\n\nThis fragmentation limits the ability to:\n\nCompare products across applications and timelines\n\nIdentify what is coming to market\n\nPrioritize introduction decisions\n\nAlign financing, procurement, and delivery planning\n\nALIGN’s theory of change:\nIntegrating fragmented data → enabling comparison → improving prioritization → accelerating equitable product introduction.\nResources: - ALIGN Theory of Change (coming soon) - Evidence Brief: Data Fragmentation (coming soon)\n\n\n\n\n\n\n\n\n\n\nNoteWhat decisions this tool supports\n\n\n\n\n\nThe Global Hub is designed to support key decision points in health product introduction:\n\nPrioritization\nWhich products should be considered given national needs and constraints?\nSequencing\nWhen should products be introduced relative to others in the pipeline?\nFinancing alignment\nHow do projected timelines align with budget cycles and funding availability?\nSystem readiness\nAre delivery systems prepared for introduction and scale?\n\nThese decisions are typically made with incomplete or fragmented data - The Global Hub aims to make them more structured and comparable.\n\n\n\n\n\n\n\n\n\n\nNoteHow to use the Hub\n\n\n\n\n\nThe Hub supports a simple workflow: explore → compare → interpret → decide\nExplore:\n\nOn the Overview page, navigate to the produce explorer. You can filter by disease category, product type, manufacturer or development stage by typing in the area you’re interested in. You can also use global page filters by clicking on the drop down menus or clicking the interactive plots. You can always reset the filters by clicking the blue circle arrow in the bottom-right of your screen.\nSelect a product you are interested in and scroll down to view additional details including projected launch timeline and global introduction readiness.\n\nCompare\n\nSelect the product you want to compare and hit the green “Add to Cart” button at the top right hand corner of the product explorer. Repeat to add products you wish to compare.\nThen navigate to the Product Comparison page or click on the Cart in the upper right corner of the screen and select “Compare your products”\n\nInterpret : Review projected vs actual milestone timelines\nDecide : Coming soon! → a prioritization tool that incorporates projected timelines, cost-effectiveness, and likelihood of success to support portfolio-based decision-making.\n\nUser guides\n\nQuick Start Guide (coming soon)\n\nFull User Manual (coming soon)\n\nVideo walkthrough (coming soon)\n\n\n\n\n\n\n\n\n\n\n\n\nNoteScope of data\n\n\n\n\n\nThe current version of the Global Hub focuses on selected high-priority health applications::\n\nHIV/AIDS,\nTuberculosis (TB),\n\nMalaria,\nMaternal, newborn, and child health (MNCH)\n\nHealth products are categorized by:\n\nType: therapeutics, vaccines, diagnostics, medical devices\nIndication: specific diseases or conditions\n\nDocumentation:\n\nApplications & Inclusion Criteria\nMNCH Definitions\nData Dictionary\n\n\n\n\n\n\n\n\n\n\n\nNoteData sources\n\n\n\n\n\nALIGN integrates structured data across pharmaceutical R&D, regulatory systems, procurement platforms, and policy frameworks to create a comprehensive view of the health product landscape.\nData sources are integrated in phases.\n\nCompleted → fully available in the current version\n\nIn-progress → partially integrated or under active development\n\nPlanned → scheduled for future releases based on priority and feasibility\n\n\n\n\n\n\n\n\n\n\n\nDatabase\nDomain\nScope\nStatus\nTimeline\n\n\n\n\nImpact Global Health R&D tracker; G-finder financial commitments\nR&D Funding\nGlobal\nCompleted\n—\n\n\nMMV antimalarial pipeline\nR&D Pipeline\nGlobal\nCompleted\n—\n\n\nDNDi portfolio\nR&D Portfolio\nGlobal\nCompleted\n—\n\n\nFIND DxConnect Test Directory\nDiagnostic directory\nGlobal\nCompleted\n—\n\n\nClinicaltrials.gov\nClinical Trials\nGlobal\nIn-progress\nQ2 2026\n\n\nAVAC clinical trials database\nClinical Trials\nGlobal\nIn-progress\nQ2 2026\n\n\nMPP LAPaL\nLicensing\nGlobal\nIn-progress\nQ2 2026\n\n\nMPP MedsPaL\nIP/Patents\nGlobal\nIn-progress\nQ2 2026\n\n\nInternational Clinical Trials registry platform (ICTRP)\nClinical Trials\nGlobal\nOn-hold\nQ2–Q3 2026\n\n\nChina’s ChiCTR\nClinical Trials\nChina\nNot started\nQ2 2026\n\n\nAfrica’s PACTR\nClinical Trials\nAfrica\nNot started\nQ2 2026\n\n\nBrazil’s ReBEC\nClinical Trials\nBrazil\nNot started\nQ2 2026\n\n\nEuropean Union trials registry\nClinical Trials\nEurope\n\nQ2 2026\n\n\nEMA (European Medicines Agency)\nRegulatory\nEU\nNot started\nQ3 2026\n\n\nSAHPRA\nRegulatory\nSouth Africa\nNot started\nQ3 2026\n\n\nWHO Drug Regulatory Status\nRegulatory\nGlobal\nNot started\nQ3 2026\n\n\nWHO Prequalification list (PQ)\nPre-qualification\nGlobal\nNot started\nQ3 2026\n\n\nGlobal EML\nEML (Comparative)\nGlobal\n\nQ3 2026\n\n\nWHO Global Price Reporting System\nPricing\nGlobal\nNot started\nQ4 2026\n\n\nGF price list\nPricing\nGlobal\nNot started\nQ4 2026\n\n\nGF ARV procurement\nProcurement\nGlobal\nNot started\nQ4 2026\n\n\nGF HIV Transactions\nTransactions\nGlobal\nNot started\nQ4 2026\n\n\nGF data Explorer\nPortfolio/spend\nGlobal\nNot started\nQ4 2026\n\n\nGF annual reports\nReporting\nGlobal\nNot started\nQ4 2026\n\n\nPEPFAR database\nSpend/Procurement\nGlobal\nNot started\nQ4 2026\n\n\nUNICEF Supply Catalogue\nCatalogue/Pricing\nGlobal\nNot started\nQ4 2026\n\n\nUNICEF supply market reports\nMarket intelligence\nGlobal\nNot started\nQ4 2026\n\n\nWHO ARV and diagnostics demand: forecasting market trends\nDemand/Forecast\nGlobal\n\n2027\n\n\nImpact Global Health – Maternal health products\nR&D Pipeline\nGlobal\nNot started\n2027\n\n\nImpact Global Health – Gynecological products\nR&D Pipeline\nGlobal\nNot started\n2027\n\n\nGHIT fund portfolio\nR&D Portfolio\nGlobal\nNot started\n2027\n\n\nPATH diagnostic manufacturing\nManufacturing directory\nGlobal\nNot started\n2027\n\n\nCHAI local vaccine manufacturing database\nManufacturing\nGlobal\nNot started\n2027\n\n\nSD Biosensor\nManufacturing\nGlobal\nNot started\n2027\n\n\nWalvax\nManufacturing\nChina/Global\nNot started\n2027\n\n\nZhifei Biological\nManufacturing\nChina/Global\nNot started\n2027\n\n\nGSK pipeline\nCompany pipeline\nGlobal\nNot started\n2027\n\n\nPfizer pipeline\nCompany pipeline\nGlobal\nNot started\n2027\n\n\nMerck pipeline\nCompany pipeline\nGlobal\nNot started\n2027\n\n\nJanssen R&D pipeline\nCompany pipeline\nGlobal\nNot started\n2027\n\n\n\nFull documentation:\n\nFull Horizon Scanning Database List\nSource Integration Methods\n\n\n\n\n\n\n\n\n\n\n\nNoteHow to interpret the data\n\n\n\n\n\n\nProjected timelines are estimates based on observed patterns and available data\n\nStatus reflects data availability, not certainty of outcomes\n\nComparisons are intended to support decision-making, not replace contextual judgment\n\nUsers should interpret outputs in conjunction with national priorities, financing constraints, and system capacity.\n\n\n\n\n\n\n\n\n\n\nNoteMethodology\n\n\n\n\n\nThe Hub transforms fragmented data into decision-ready insights through structured integration, validation, and projection methods.\n\nData integration\nData are harmonized into a unified product registry using:\n\nName and synonym matching\n\nIdentifier mapping\n\nCross-source validation\n\n→ Data Integration Pipeline\n\n\nKey metrics\nMilestones tracked:\n\nProof of concept\n\nMarketing authorization\n\nFirst launch in LMICs\n\nProduct introduction milestones\nCost-effectiveness analysis\nLikelihood of success analysis\n\n\nFull documentation\n\nFull Methodology Report\nForecasting Methods\nValidation Protocol\nTechnical Architecture Guide\n\n\n\n\n\n\n\n\n\n\n\n\nNotePrevious work: Integrated Horizon Scanning\n\n\n\n\n\nThe Global Hub builds on ALIGN’s horizon scanning system, integrating:\n\nR&D pipelines\n\nRegulatory approvals\n\nProcurement signals\n\nThis enables tracking from development → introduction.\n→ Horizon Scanning Report"
+  },
+  {
+    "objectID": "content/about.html#definitions-and-documentation",
+    "href": "content/about.html#definitions-and-documentation",
+    "title": "GlobalHub",
+    "section": "Definitions and documentation",
+    "text": "Definitions and documentation\n\nPipeline Definitions & Terms (coming soon)\n\nALIGN Data Dictionary\nGlossary\n\n\n\n\n\n\n\n\nWarningRoadmap\n\n\n\n\n\nThe roadmap reflects planned expansions in data coverage, analytical capabilities, and decision-support functionality.\nQ3 2026\n\nNational Hub pilots (Kenya, South Africa and Senegal)\n\nExpanded application coverage beyond TB, HIV, malaria, and MNCH.\n\nQ4 2026\n\nIntegration of predictive modeling (probability of success and time to market)\n\nPortfolio prioritization tools (e.g. budget impact and combined cost-effectiveness)\n\nQ1 2027\n\nIntegration and harmonization of country-specific product databases\nDemand + delivery data integration\n\n\n\n\n\n\n\n\n\n\n\n\nImportantCurrent limitations\n\n\n\n\n\n\nSome metrics are still under development\n\nCoverage is partial\n\nProjections may change as data updates\n\nFuture releases will expand scope, improve accuracy, and enhance usability."
+  }
+]

@@ -3,10 +3,10 @@ title: "Inclusion and Exclusion Criteria"
 format:
   html:
     theme: flatly
-    css: ../../www/styles.css
     toc: true
 params:
   last_updated: "2026-03-27"
+engine: knitr
 ---
 
 <div class="about-meta">
@@ -81,12 +81,12 @@ The inclusion status of products is reviewed quarterly as part of the data integ
 
 ***
 
-![](../../../www/logo/with_partners.png){height=120px}
+![](/www/logo/with_partners.png){height=120px}
 
 © 2026 ALIGN Consortium. All rights reserved.
 
 {{< fa globe >}} [Website](https://alignconsortium.org){target="_blank"}
 &nbsp;|&nbsp;
-{{< fa brands github >}} [GitHub](https://github.com/ALIGN-Consortium/GlobalHub){target="_blank"}
+{{< fa brands github >}} [GitHub](https://github.com/ALIGN-GlobalHub/GlobalHub){target="_blank"}
 &nbsp;|&nbsp;
 {{< fa envelope >}} [Contact](mailto:align@duke.edu)

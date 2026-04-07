@@ -7,6 +7,7 @@ format:
     self-contained: true
 params:
   last_updated: "2026-03-27"
+engine: knitr
 ---
 
 <div class="about-meta">
@@ -120,7 +121,7 @@ The Hub supports a simple workflow: explore → compare → interpret → decide
 
 ##### User guides
   
-- [Quick Start Guide (coming soon)](https://align-consortium.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}  
+- [Quick Start Guide (coming soon)](https://align-globalhub.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}  
 - [Full User Manual (coming soon)]()  
 - [Video walkthrough (coming soon)]()  
 
@@ -145,9 +146,9 @@ Health products are categorized by:
 
 **Documentation:**
 
-- [Applications & Inclusion Criteria](https://align-consortium.github.io/GlobalHub/content/documentation/inclusion_criteria.html){target="_blank"}
-- [MNCH Definitions](https://align-consortium.github.io/GlobalHub/content/documentation/mnch_framework.html){target="_blank"}
-- [Data Dictionary](https://align-consortium.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
+- [Applications & Inclusion Criteria](https://align-globalhub.github.io/GlobalHub/content/documentation/inclusion_criteria.html){target="_blank"}
+- [MNCH Definitions](https://align-globalhub.github.io/GlobalHub/content/documentation/mnch_framework.html){target="_blank"}
+- [Data Dictionary](https://align-globalhub.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
 :::
 
 ---
@@ -209,8 +210,8 @@ Data sources are integrated in phases.
 
 **Full documentation:**
 
-- [Full Horizon Scanning Database List](https://align-consortium.github.io/GlobalHub/content/documentation/horizon_sources.html){target="_blank"}
-- [Source Integration Methods](https://align-consortium.github.io/GlobalHub/content/documentation/source_methods.html){target="_blank"}
+- [Full Horizon Scanning Database List](https://align-globalhub.github.io/GlobalHub/content/documentation/horizon_sources.html){target="_blank"}
+- [Source Integration Methods](https://align-globalhub.github.io/GlobalHub/content/documentation/source_methods.html){target="_blank"}
 :::
 
 ---
@@ -240,7 +241,7 @@ Data are harmonized into a unified product registry using:
 - Identifier mapping  
 - Cross-source validation  
 
-→ [Data Integration Pipeline](https://align-consortium.github.io/GlobalHub/content/documentation/integration_pipeline.html){target="_blank"}
+→ [Data Integration Pipeline](https://align-globalhub.github.io/GlobalHub/content/documentation/integration_pipeline.html){target="_blank"}
 
 
 ##### Key metrics
@@ -251,18 +252,18 @@ Data are harmonized into a unified product registry using:
 - Marketing authorization  
 - First launch in LMICs
 
-[Product introduction milestones](https://align-consortium.github.io/GlobalHub/content/documentation/product_milestones.html){target="_blank"}
+[Product introduction milestones](https://align-globalhub.github.io/GlobalHub/content/documentation/product_milestones.html){target="_blank"}
 
-[Cost-effectiveness analysis](https://align-consortium.github.io/GlobalHub/content/documentation/cost_effectiveness.html){target="_blank"}
+[Cost-effectiveness analysis](https://align-globalhub.github.io/GlobalHub/content/documentation/cost_effectiveness.html){target="_blank"}
 
-[Likelihood of success analysis](https://align-consortium.github.io/GlobalHub/content/documentation/likelihood_of_success.html){target="_blank"}
+[Likelihood of success analysis](https://align-globalhub.github.io/GlobalHub/content/documentation/likelihood_of_success.html){target="_blank"}
 
 ##### Full documentation
 
-- [Full Methodology Report](https://align-consortium.github.io/GlobalHub/content/documentation/methodology.html){target="_blank"}
-- [Forecasting Methods](https://align-consortium.github.io/GlobalHub/content/documentation/forecasting.html){target="_blank"}
-- [Validation Protocol](https://align-consortium.github.io/GlobalHub/content/documentation/validation.html){target="_blank"}
-- [Technical Architecture Guide](https://align-consortium.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}
+- [Full Methodology Report](https://align-globalhub.github.io/GlobalHub/content/documentation/methodology.html){target="_blank"}
+- [Forecasting Methods](https://align-globalhub.github.io/GlobalHub/content/documentation/forecasting.html){target="_blank"}
+- [Validation Protocol](https://align-globalhub.github.io/GlobalHub/content/documentation/validation.html){target="_blank"}
+- [Technical Architecture Guide](https://align-globalhub.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}
 :::
 
 ---
@@ -278,7 +279,7 @@ The Global Hub builds on ALIGN’s horizon scanning system, integrating:
 
 This enables tracking from development → introduction.
 
-→ [Horizon Scanning Report](https://align-consortium.github.io/GlobalHub/content/documentation/horizon_scanning.html){target="_blank"}
+→ [Horizon Scanning Report](https://align-globalhub.github.io/GlobalHub/content/documentation/horizon_scanning.html){target="_blank"}
 :::
 
 ---
@@ -286,8 +287,8 @@ This enables tracking from development → introduction.
 ## Definitions and documentation
 
 - [Pipeline Definitions & Terms (coming soon)]()  
-- [ALIGN Data Dictionary](https://align-consortium.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
-- [Glossary](https://align-consortium.github.io/GlobalHub/content/documentation/glossary.html){target="_blank"}
+- [ALIGN Data Dictionary](https://align-globalhub.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
+- [Glossary](https://align-globalhub.github.io/GlobalHub/content/documentation/glossary.html){target="_blank"}
 
 ---
 
