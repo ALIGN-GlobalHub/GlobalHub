@@ -21,7 +21,7 @@ Health product data are distributed across multiple systems, limiting the abilit
 - Align financing, procurement, and delivery planning  
 - Support structured prioritization decisions  
 
-The Global Hub addresses this by integrating and standardizing data into a unified analytical framework. :contentReference[oaicite:0]{index=0}
+The Global Hub addresses this by integrating and standardizing data into a unified analytical framework.
 
 ---
 

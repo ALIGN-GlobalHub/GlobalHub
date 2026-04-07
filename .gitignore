@@ -3,7 +3,6 @@ rsconnect-python/GlobalHub.json
 /.quarto/
 **/*.quarto_ipynb
 # Quarto generated libs
-docs/site_libs/
 
 # OS / temp
 .DS_Store
