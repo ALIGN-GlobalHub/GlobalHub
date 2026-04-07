@@ -1,2 +1,11 @@
 rsconnect-python/GlobalHub.json
 *.pyc
+/.quarto/
+**/*.quarto_ipynb
+# Quarto generated libs
+docs/site_libs/
+
+# OS / temp
+.DS_Store
+
+.quarto/project-cache-*/
