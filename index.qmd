@@ -1,5 +1,5 @@
 ---
-title: "GlobalHub"
+title: "Global Hub Documentation"
 ---
 
 ## ALIGN Global Hub
@@ -7,8 +7,6 @@ title: "GlobalHub"
 The ALIGN Global Hub is a **market intelligence platform** designed to support prioritization and introduction decisions for health products.
 
 It integrates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view—enabling comparison, forecasting, and decision-making.
-
----
 
 ## Why this exists
 
@@ -21,8 +19,6 @@ Health product data are distributed across multiple systems, limiting the abilit
 
 The Global Hub addresses this by integrating and standardizing data into a unified analytical framework.
 
----
-
 ## What this platform supports
 
 The Hub is designed to inform key decision points:
@@ -31,8 +27,6 @@ The Hub is designed to inform key decision points:
 - **Sequencing** — when to introduce them  
 - **Financing alignment** — how timelines match budgets  
 - **System readiness** — whether delivery systems are prepared  
-
----
 
 ## Explore the documentation
 
@@ -85,8 +79,6 @@ The Hub is designed to inform key decision points:
 
 :::
 
----
-
 ## Scope
 
 Current coverage focuses on high-priority applications:
@@ -97,8 +89,6 @@ Current coverage focuses on high-priority applications:
 - Maternal, newborn, and child health (MNCH)  
 
 Products are categorized by type (therapeutics, vaccines, diagnostics, devices) and indication.
-
----
 
 ## About ALIGN
 
