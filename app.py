@@ -39,7 +39,7 @@ app_ui = ui.page_navbar(
     # -------------------------
     title=ui.tags.div(
         ui.tags.img(
-            src="logo/without_partners.png",
+            src="logo/without_partners_white.png",
             height="60px",
             class_="brand-logo",
         ),
@@ -118,7 +118,7 @@ app_ui = ui.page_navbar(
             ui.tags.i(class_="fa-brands fa-github me-2"),
             ui.tags.a(
                 "GitHub",
-                href="https://github.com/ALIGN-Consortium/GlobalHub",
+                href="https://github.com/ALIGN-GlobalHub/GlobalHub",
                 target="_blank",
             ),
             ui.tags.span(" | "),

@@ -4,48 +4,76 @@ This is a Python-based Shiny application for the Global Hub Dashboard. It visual
 
 ## Prerequisites
 
-- **Python 3.11+**
-- **pip** (Python package installer)
+-   Python 3.11+
+-   uv (Python package manager by Astral)
+
+Install uv:
+
+``` bash
+curl -Ls https://astral.sh/uv/install.sh | sh
+```
 
 ## Setup Instructions
 
-1.  **Clone or Download the Repository**
-    Ensure you have all the files in a local directory.
+1.  Clone the repository
 
-2.  **Create a Virtual Environment**
-    It is recommended to use a virtual environment to manage dependencies.
-    
-    ```bash
-    # macOS/Linux
-    python3 -m venv .venv
-    source .venv/bin/activate
+``` bash
+git clone <repo-url>
+cd <repo-folder>
+```
 
-    # Windows
-    python -m venv .venv
-    .venv\Scripts\activate
-    ```
+2.  Install dependencies and create environment
 
-3.  **Install Dependencies**
-    Install the required Python packages using `pip`.
+``` bash
+uv sync
+```
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+This will: - create a virtual environment automatically - install
+dependencies from `pyproject.toml` - use `uv.lock` for reproducibility
 
 ## Running the Application
 
-To start the dashboard locally:
-
-```bash
-shiny run app.py
+``` bash
+uv run shiny run app.py
 ```
 
-The application will start, and you should see a URL (typically `http://127.0.0.1:8000`) in the terminal. Open this URL in your web browser.
+The application will start, and you should see a URL (typically
+http://127.0.0.1:8000) in the terminal.
+
+## Dependency Management
+
+Add new packages:
+
+``` bash
+uv add <package>
+```
+
+Update dependencies:
+
+``` bash
+uv lock --upgrade
+uv sync
+```
+
+Pin Python version (optional):
+
+``` bash
+uv python pin 3.11
+```
 
 ## Project Structure
 
-- **`app.py`**: The main application entry point (Python Shiny).
-- **`data_loader.py`**: Data processing logic and loading routines.
-- **`overview.py`, `innovation_details.py`, `comparison.py`**: UI and Server logic for specific dashboard tabs.
-- **`www/`**: Static assets and data files (e.g., `HorizonScanCombined.csv`).
-- **`requirements.txt`**: List of Python dependencies.
+-   `app.py`: Main application entry point (Python Shiny)
+-   `modules/`: UI and server modules for dashboard components
+-   `utils/`: Helper functions (data loading, theming, UI helpers)
+-   `www/`: Static assets and data files
+-   `content/`: Quarto documentation content
+-   `docs/`: Rendered documentation site (GitHub Pages)
+-   `pyproject.toml`: Project dependencies and configuration
+-   `uv.lock`: Locked dependency versions for reproducibility
+
+## Notes
+
+-   This project uses `pyproject.toml` + `uv.lock` as the source of
+    truth for dependencies.
+-   `requirements.txt` is optional and provided only for compatibility.

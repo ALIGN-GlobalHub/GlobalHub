@@ -56,7 +56,7 @@ def comparison_ui():
             ui.div(
                 ui.div(
                     ui.div(
-                        ui.span("Products in Your List", class_="fw-semibold"),
+                        ui.span("Products in your list", class_="fw-semibold"),
                         ui.input_action_button(
                             "remove_selected_from_cart_comp",
                             ui.tags.span(
@@ -80,7 +80,7 @@ def comparison_ui():
         ui.div(
             ui.div(
                 ui.div(
-                    ui.span("Impact & Readiness Heatmap", class_="fw-semibold"),
+                    ui.span("Impact & readiness heatmap", class_="fw-semibold"),
                     class_="card-header",
                 ),
                 ui.div(
@@ -94,7 +94,7 @@ def comparison_ui():
         ui.div(
             ui.div(
                 ui.div(
-                    ui.div("Speedometer Introduction Milestone Tracking", class_="card-header"),
+                    ui.div("Speedometer introduction milestone tracking", class_="card-header"),
                     ui.div(
                         output_widget("time_to_market_plot", height="auto"),
                         id="timeline_card_body",
@@ -295,7 +295,7 @@ def comparison_server(input, output, session, cart):
             "Kenya market authorization",
             "Senegal market authorization",
             "South Africa market authorization",
-            "Global Mkt Authorization",
+            "Global market authorization",
             "WHO EML listed",
         ]
 

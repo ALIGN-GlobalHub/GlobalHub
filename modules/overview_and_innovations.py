@@ -9,19 +9,6 @@ from shinywidgets import output_widget, render_widget
 from utils.data_loader import load_data
 
 
-# def req(condition):
-#     """
-#     Helper to stop execution if a condition is not met (similar to R Shiny's req).
-#     Useful for preventing errors when data is momentarily empty during reactivity.
-#     """
-#     import pandas as pd
-
-#     if isinstance(condition, (pd.DataFrame, pd.Series)):
-#         if condition.empty:
-#             raise StopIteration
-#     elif not condition:
-#         raise StopIteration
-
 
 def get_status_theme(value):
     """
@@ -89,7 +76,7 @@ def render_standard_value_box(
 def render_kenya_nra_box(row):
     val = "Not available" if pd.isna(row.get("Kenya_nra")) else row.get("Kenya_nra")
     return render_standard_value_box(
-        "Kenya Market Authorization",
+        "Kenya market authorization",
         val,
         "Status of national marketing authorization in Kenya.",
         "https://github.com/ALIGN-Consortium/GlobalHub/tree/main/docs",
@@ -100,7 +87,7 @@ def render_kenya_nra_box(row):
 def render_senegal_nra_box(row):
     val = "Not available" if pd.isna(row.get("Senegal_nra")) else row.get("Senegal_nra")
     return render_standard_value_box(
-        "Senegal Market Authorization",
+        "Senegal market authorization",
         val,
         "Status of national regulatory approval in Senegal.",
         "https://github.com/ALIGN-Consortium/GlobalHub/tree/main/docs",
@@ -115,7 +102,7 @@ def render_south_africa_nra_box(row):
         else row.get("South Africa_nra")
     )
     return render_standard_value_box(
-        "South Africa Market Authorization",
+        "South Africa market authorization",
         val,
         "Status of national marketing authorization in South Africa.",
         "https://github.com/ALIGN-Consortium/GlobalHub/tree/main/docs",
@@ -126,7 +113,7 @@ def render_south_africa_nra_box(row):
 def render_global_approval_box(row):
     val = "Not available" if pd.isna(row.get("gra")) else row.get("gra")
     return render_standard_value_box(
-        "Global Approval",
+        "Global approval",
         val,
         "Whether the product has approval/authorization/prequalification by a global body. Includes WHO PQ, US FDA, EMA, or other global approval.",
         "https://github.com/ALIGN-Consortium/GlobalHub/tree/main/docs",
@@ -137,7 +124,7 @@ def render_global_approval_box(row):
 def render_eml_box(row):
     val = "Not available" if pd.isna(row.get("eml")) else row.get("eml")
     return render_standard_value_box(
-        "WHO Essential Medicines/Diagnostics",
+        "WHO essential medicines/diagnostics",
         val,
         "Whether the product is listed on WHO Essential Medicines/Devices List (EML).",
         "https://github.com/ALIGN-Consortium/GlobalHub/tree/main/docs",
@@ -309,7 +296,7 @@ def innovation_page_ui():
                                 ui.div(
                                     ui.div(
                                         ui.tags.span(
-                                            "Products Projected to Enter LMIC Markets in the Next 3 Years"
+                                            "Products projected to enter LMIC markets in the next 3 years"
                                         ),
                                         ui.tags.span(
                                             popover(
@@ -348,7 +335,7 @@ def innovation_page_ui():
                         ui.div(
                             ui.div(
                                 ui.div(
-                                    ui.tags.span("Product Type Summary"),
+                                    ui.tags.span("Product type summary"),
                                     info_tooltip(
                                         "Clicking on a product type will filter the database and visuals below. Clicking the blue icon in the right corner of the screen to reset all filters"
                                     ),
@@ -365,7 +352,7 @@ def innovation_page_ui():
                         ui.div(
                             ui.div(
                                 ui.div(
-                                    ui.tags.span("Product Development Summary"),
+                                    ui.tags.span("Product development summary"),
                                     info_tooltip(
                                         "Clicking on a development status below will filter the database and visuals below. Clicking the blue icon in the right corner of the screen to reset all filters"
                                     ),
@@ -395,7 +382,7 @@ def innovation_page_ui():
                 ui.div(
                     ui.div(
                         ui.span(
-                            "Product Explorer",
+                            "Product explorer",
                             ui.tags.span(
                                 popover(
                                     ui.tags.i(
@@ -447,7 +434,24 @@ def innovation_page_ui():
             # DETAIL TITLE & SUMMARY
             # =====================================================
             ui.div(
-                ui.div(ui.output_text("detail_title"), class_="card-header"),
+                ui.div(
+                    ui.div(
+                        ui.output_text("detail_title"),
+                        ui.div(
+                            ui.input_action_button(
+                                "add_detail_to_cart",
+                                ui.tags.span(
+                                    ui.tags.i(class_="fa-solid fa-cart-plus me-1"),
+                                    "Add to cart",
+                                ),
+                                class_="btn btn-sm btn-success",
+                            ),
+                            class_="d-flex gap-2",
+                        ),
+                        class_="d-flex justify-content-between align-items-center w-100",
+                    ),
+                    class_="card-header",
+                ),
                 ui.div(ui.output_ui("detail_summary"), class_="card-body"),
                 class_="card mb-4",
                 min_height="400px",
@@ -462,7 +466,7 @@ def innovation_page_ui():
                     ui.div(
                         ui.div(
                             ui.div(
-                                ui.tags.span("Date of First Launch in an LMIC"),
+                                ui.tags.span("Date of first launch in an LMIC"),
                                 ui.tags.span(
                                     popover(
                                         ui.tags.i(
@@ -506,7 +510,7 @@ def innovation_page_ui():
                         ui.div(
                             ui.div(
                                 ui.tags.span(
-                                    "Speedometer Introduction Milestone Tracking"
+                                    "Speedometer introduction milestone tracking"
                                 ),
                                 ui.tags.span(
                                     popover(
@@ -558,7 +562,7 @@ def innovation_page_ui():
             ui.div(
                 ui.div(
                     ui.div(
-                        ui.span("Global Introduction Readiness", class_="fw-semibold"),
+                        ui.span("Global introduction readiness", class_="fw-semibold"),
                         class_="d-flex align-items-center justify-content-between flex-wrap gap-2",
                     ),
                     class_="card-header",
@@ -917,6 +921,17 @@ def innovation_page_server(input, output, session, cart):
     @reactive.Effect
     @reactive.event(input.add_selected_to_cart)
     def _add_selected_to_cart():
+        selected_id = selected_innovation()
+        if selected_id:
+            current = cart.get()
+            new_cart = current.copy()
+            new_cart.add(selected_id)
+            cart.set(new_cart)
+            ui.notification_show(f"Added {selected_id} to comparison list", type="message")
+
+    @reactive.Effect
+    @reactive.event(input.add_detail_to_cart)
+    def _add_detail_to_cart():
         selected_id = selected_innovation()
         if selected_id:
             current = cart.get()
